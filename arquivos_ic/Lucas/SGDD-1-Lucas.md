@@ -60,3 +60,11 @@ Ao final, teríamos a pontuação do usuário para aquela música e ele podería
 Como o contexto aqui abordado é o musical, uma ideia é a seguinte:
 
 1) Você é um músico e está aprendendo com um(a) professor(a). Ela toca trechos da música e depois lhe pergunta a respeito de trechos específicos. -> Justifica ter uma narração de fundo.
+
+## Ideias diversas
+
+### Sistema de colaboração
+
+Uma ideia de multiplayer mais geral seria colocar diferentes usuários para competir entre si. 
+
+Podemos, além disso, colocar um sistema de colaboração e formar grupos de pacientes para realizarem o **N-Back** de maneira colaborativa.
