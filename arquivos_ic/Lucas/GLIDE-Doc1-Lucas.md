@@ -13,8 +13,6 @@ Template v1.0  |  2026  |  CIATec
 > ⚙ *Atualize a cada novo ciclo de PPI incorporado. Idioma: PT-BR. Acrônimos em inglês.*
 
 ## 1  IDENTIFICAÇÃO DO PROJETO
-> ⚙ *Preencha os campos abaixo. Mantenha a versão atualizada a cada ciclo de PPI incorporado.*
-> ⚙ *O campo Posição no Triple Diamond indica em qual fase do GLIDE este documento foi gerado.*
 
 **Nome do jogo:** *a preencher*
 
@@ -35,7 +33,6 @@ Template v1.0  |  2026  |  CIATec
 **Última atualização:** 21/09/2026
 
 ## 2  CONCEITO DO JOGO
-> ⚙ *Descreva o jogo como faria em um GDD de mercado. A população clínica é parte do público-alvo, não nota de rodapé.*
 
 Jogo baseado no paradigma *N-Back Task*, o qual possui como construto, de acordo com documento de paradigmas fornecido pelo **CIATec**,
 
@@ -45,149 +42,218 @@ No caso, a jogabilidade consistirá em partidas onde, por ciclos determinados de
 
 No que diz respeito às músicas, haverão diferentes gêneros para maior alcance de gostos pessoais.
 
-Cada ciclo de tempo será cronometrado e, quando chegar ao fim, o jogador será questionado a respeito de algum dos estímulos anteriores e deverá responder de maneira correta qual foi o som ou parcela de música que ocorreu em algum(s) *timestamp(s)* específico(s) anterior(es).
+Cada ciclo de tempo será cronometrado e, quando chegar ao fim, o jogador será questionado a respeito de algum(s) dos estímulos anteriores e deverá responder de maneira correta qual foi o som ou parcela de música que ocorreu em algum(s) *timestamp(s)* específico(s) anterior(es). Depois, haverão mais ciclos até que a sequência se encerre.
 
-A partir do desempenho do jogador, o sistema por baixo dos panos se adaptará de maneira inteligente para melhor adequamento às necessidades que forem identificadas.
+A partir do desempenho do jogador, o sistema por baixo dos panos se adaptará de maneira inteligente para melhor adequamento às necessidades que forem identificadas dinamicamente.
 
 O público alvo são usuários finais jovens TEA. A construção do jogo levará em consideração, inicialmente, as necessidades relatadas em documento *PPI* fornecido pela organização, com relatos reais que envolvem pacientes, cuidadores e profissionais relacionados.
 
-
-
+Teríamos, então, dificuldade adaptativa, uma interface amigável e um jogo capaz de manter os jogadores imersos.
 
 ### 2.1  Premissa
-*[Descreva o jogo em 2 a 3 frases. O que o jogador faz? Qual o contexto? O que torna a experiência singular?]*
+
+Realização de escuta ativa de sequência sonora, *active recall* de elementos específicos.
 
 ### 2.2  Gênero e Plataforma
-**Gênero:** *ex: jogo de captura / serious game terapêutico*
-**Plataforma:** *ex: web, mobile, desktop com câmera obrigatória*
-**Modo de jogo:** *ex: single player, sessão supervisionada, uso domiciliar*
-**Tecnologia de interação:** *ex: visão computacional com rastreamento de mãos por câmera*
+**Gênero:** jogo eletrônico musical, *serious game* terapêutico;
+**Plataforma:** web, desktop, mobile;
+**Modo de jogo:** majoritariamente single player, podendo haver métodos multiplayer sendo desenvolvidos eventualmente;
+**Tecnologia de interação:** Cliques com cursor de *mouse*, ou interação com *touchscreen*
 
 ### 2.3  Público-Alvo
-> ⚙ *Liste todos os perfis de usuário: usuário final, profissionais mediadores e cuidadores quando relevantes.*
-*[Descreva os perfis de público-alvo. Ex: usuários com condição X, faixa etária Y, profissionais mediadores Z.]*
+
+1) Usuários finais dentro do espectro autista (TEA), primariamente perfis de Suporte 1 (S1) e Suporte 2 (S2), menores de 18 anos, com acompanhamento profissional.
+
+2) Para usuários de Suporte 3 (S3), o jogo não tem expectativa de uso autônomo, exigindo mediação clínica intensa (auxílio físico e verbal constante) e atuando em níveis de dificuldade (N) adaptados ou reduzidos a zero (associação direta).
+
+3) Responsáveis legais e profissionais mediadores clínicos (terapeutas, psicólogos) com experiência direta no atendimento dessa população, que utilizarão relatórios gerados pelo jogo para acompanhamento.
 
 ## 3  OBJETIVO TERAPÊUTICO E EDUCACIONAL
-> ⚙ *Esta seção não existe em GDDs de mercado. É a primeira camada exclusivamente científica.*
-> ⚙ *Use linguagem compatível com MRC Framework. Diferencie objetivo terapêutico de objetivo de engajamento.*
 
 ### 3.1  Objetivo Terapêutico Principal
-*[Descreva o desfecho clínico ou funcional que o jogo visa produzir.]*
+
+O jogo tem como objetivo o exercício com relação à atenção e aos diferentes níveis de memória do paciente, auxiliando a identificar fragilidades e realizando práticas terapêuticas adequadas.
 
 ### 3.2  Objetivos Secundários
-*[Liste objetivos secundários: funcionais, de engajamento, de acessibilidade, de coleta de dados.]*
+
+O jogo pode servir como ponto de conforto durante crises, ajudando na autoregulação do paciente ao proporcionar um ambiente confortável, com sons que não sobrecarregam a pessoa individualmente.
+
+Além disso, a coleta de dados pode ser útil para mapear necessidades diversas do paciente.
 
 ### 3.3  Fora do Escopo
-> ⚙ *Delimitar o escopo evita expectativas clínicas incorretas. Ex: o jogo não substitui avaliação clínica formal.*
-*[Liste explicitamente o que está fora do escopo terapêutico ou educacional deste jogo.]*
+
+O ensino de teoria musical ou o desenvolvimento de habilidades rítmicas profissionais estão fora do escopo deste jogo. A seleção de músicas e estímulos sonoros serve como ferramenta para manter o engajamento, atuar como reforçador terapêutico e proporcionar conforto sensorial, não possuindo finalidade educacional musical.
 
 ## 3A  GUIDING PRINCIPLES
 > ⚙ *Esta seção é derivada da síntese de evidências do PPI — não de relatos individuais de participantes.*
 > ⚙ *Os Guiding Principles funcionam como a bússola do projeto. Cada decisão de design deve ser rastreável a um princípio.*
-> ⚙ *Um mesmo princípio pode ser sustentado por múltiplas evidências do PPI: entrevistas, observações, literatura, workshops.*
+> ⚙ *Um mesmo princípio pode ser sustentado por múltiplas evidências do PPI: entrevistas, observações, literatura, workshops.*Desenvolvimento multiplataforma: para celulares e computadores 
 > ⚙ *Formato: GP-ID | Evidência sintetizada do PPI | Objetivo de design | Funcionalidades previstas.*
 > ⚙ *Esta seção é referenciada nas Seções 4, 8 e 13A, e nos documentos Doc 2 e Doc 3.*
 
 | GP | Evidência sintetizada do PPI | Objetivo de design | Funcionalidades previstas |
 | --- | --- | --- | --- |
-| GP-01 | ex: Usuários apresentam barreiras de compreensão quando a interação depende de texto escrito | Permitir uso autônomo sem leitura | Tutorial visual + instrução em Libras ou equivalente |
-| GP-02 | ex: Usuários precisam compreender imediatamente a causa dos erros para manter o engajamento | Tornar o estado do jogo imediatamente compreensível | Feedback visual explícito para acerto e falha |
-| GP-03 | ex: Usuários respondem melhor à progressão gradual do que a saltos bruscos de dificuldade | Manter engajamento ao longo das sessões | Progressão adaptativa por desempenho consistente |
-| GP-04 | ex: Sessões prolongadas ou sem controle de carga podem aumentar fadiga e reduzir adesão | Preservar segurança e tolerabilidade | Limite de duração e critérios de interrupção |
-| [adicionar] |  |  |  |
+| GP-01 | Nem todos os usuários utilizam *tablet* ou *smartphone* no cotidiano | Tornar acessível para diferentes tipos de usabilidade | Desenvolvimento multiplataforma: para celulares e computadores. Suporte a *Touchscreen*, *desktop* e *web* |
+| GP-02 | Existe usuário inserido em mais de um transtorno psicológico (TEA + TDAH + TOD) | Evitar deixar o jogo inflexível, excludente e desestimulante | Coleta de dados referentes à atenção/memória por parte de sistema *backend*, adaptabilidade dos questionamentos durante *gameplay* e da dificuldade|
+| GP-03 |Todos os usuários são TEA, logo existe a chance de sobrecarga sensorial e eventual crise | Tornar o jogo menos atritivo no quesito sensorial | Multipla escolha de gêneros musicais ou tipos de som, além de questionários sobre preferências pessoais para interface e afins |
+| GP-04 | Sessões prolongadas ou sem controle de carga podem aumentar fadiga e reduzir adesão | Preservar segurança e tolerabilidade | Limite de duração e critérios de interrupção |
+| GP-05 | A abstração da relação causa-efeito na tela é uma barreira severa para usuários de Suporte 3, exigindo treino antes da demanda cognitiva. | Garantir compreensão da mecânica antes de testar a memória | Modo "Treino Pré-Jogo" com associação direta (N=0) e sem limite de tempo. |
 
 > ⚠ **Cada Guiding Principle deve ter pelo menos uma evidência rastreável ao relatório de síntese do PPI.**
 
 ## 4  MECÂNICAS CORE  —  MDA: MECHANICS
-> ⚙ *Descreva cada mecânica como faria em um GDD de mercado.*
-> ⚙ *Para cada mecânica, preencha: justificativa clínica, Guiding Principle correspondente, hipótese de design e origem no PPI.*
-> ⚙ *A hipótese de design responde à pergunta: por que acreditamos que essa decisão ajudará essa população?*
-> ⚙ *Mecânicas sem rastreabilidade ao PPI devem ser marcadas como decisão de design sem origem PPI.*
 
 ### 4.1  Mecânica Principal
-*[Nome da mecânica principal]*
+
+*Active Recall*
+
 **Descrição:**
-*[Como funciona, regras, controles, o que o jogador faz.]*
+
+Quando o tempo pré-estabelecido para exibição de som terminar, jogador deve selecionar corretamente dentre opções de áudio oferecidas em um painel para indicar qual som ocorreu durante um intervalo de tempo **N-Passos** atrás. A interação com o painel é através de cliques com *mouse ou touchscreen*.
+
 **Justificativa clínica:**
-*[Por que essa mecânica serve ao objetivo terapêutico.]*
+
+A mecânica implementa diretamente o princípio proposto pelo paradigma **N-Back Task**, atuando no exercício da memória e concentração.
+
 **Guiding Principle:**
-*[ex: GP-01 / decisão de design sem Guiding Principle]*
+
+GP-02 (Evitar deixar o jogo inflexível e desestimulante, especialmente para comorbidades) e GP-03 (Tornar o jogo menos atritivo no quesito sensorial para evitar crises).
+
 **Hipótese de design:**
-*[Por que acreditamos que essa decisão ajudará essa população? Ex: a demonstração visual reduzirá a dependência de leitura, aumentando autonomia e compreensão inicial.]*
+
+Acreditamos que a eliminação de feedbacks punitivos (como ruídos de erro ou flashes de cor) previne a desregulação emocional e a sobrecarga sensorial, especialmente em perfis com alta competitividade ou baixa tolerância à frustração (como o TEA associado a TOD e TDAH). Ao manter o erro neutro e superestimar visualmente e sonoramente apenas os acertos, mitigamos a associação do jogo a sentimentos aversivos, prolongando o engajamento do paciente na sessão terapêutica.
+
 **Origem PPI:**
-*[Evidência sintetizada que originou essa decisão / decisão de design]*
+
+Evidências originadas da observação do usuário U4-S2, que demonstrou alta competitividade e necessidade de um feedback de acerto reforçado para não se frustrar com pontuações baixas, e do usuário U3-S1 (TEA + TDAH + TOD), que apresentou irritabilidade e redução da tolerância com o aumento do desafio. Além disso, o PPI reforça transversalmente o cuidado com o excesso de estímulos simultâneos.
 
 ### 4.2  Sistema de Feedback
-*[Descreva todos os tipos de feedback: visual, sonoro, háptico. Para cada tipo: o que acontece, quando acontece, o que comunica ao jogador.]*
+
+- O jogo utilizará um sistema de feedback positivo enfatizado.   Acertos: Geram feedback visual imediato (animações de recompensa contidas, para evitar distração) e reforço sonoro agradável (ex: som funcional integrado à música). A pontuação na tela focará nos acertos acumulados.   
+
+- Erros: O feedback para o erro será neutro. Não haverá distorções de áudio, mudança drástica de paleta de cores ou sons de "falha", a fim de evitar estímulos aversivos, gatilhos de sobrecarga sensorial ou aumento de irritabilidade em perfis com alta competitividade ou comorbidades como TDAH/TOD. O erro resultará apenas na ausência da recompensa visual e na não progressão da fase. O usuário terá controle sobre o volume ou a opção de desativar os sons inteiramente, respeitando a variabilidade sensorial do espectro. 
+
 **Justificativa clínica:**
-Feedback imediato e compreensível é requisito terapêutico. Erro sem causa compreensível rompe engajamento e calibração.
+
+Minimizar a aversão ao erro é fundamental para manter a tolerância à frustração e o engajamento ao longo da sessão, evitando abandonos precoces.
+
 **Guiding Principle:**
-*[ex: GP-02]*
+
+GP-02 (Evitar deixar o jogo inflexível e desestimulante, especialmente para comorbidades) e 
+GP-03 (Tornar o jogo menos atritivo no quesito sensorial para evitar crises).
+
 **Hipótese de design:**
-*[Por que acreditamos que esse sistema de feedback ajudará essa população?]*
+
+Acreditamos que a eliminação de feedbacks punitivos (como ruídos aversivos de erro ou flashes de cor repentinos) previne a desregulação emocional e a sobrecarga sensorial. Isso é especialmente crítico em perfis com alta competitividade ou baixa tolerância à frustração (como o TEA associado a TOD e TDAH). Ao manter o erro neutro e superestimular visualmente e sonoramente apenas os acertos, mitigamos a associação da atividade a sentimentos aversivos, prolongando o engajamento do paciente na sessão terapêutica.   
+
 **Origem PPI:**
-*[a preencher por ciclo]*
+
+Evidências originadas da observação do usuário U4-S2, que demonstrou alta competitividade e necessidade de um feedback de acerto reforçado para não se frustrar com pontuações baixas. Além disso, fundamenta-se no usuário U3-S1 (TEA + TDAH + TOD), que apresentou irritabilidade e redução da tolerância com o aumento do desafio. O PPI também reforça transversalmente o cuidado com o excesso de estímulos simultâneos para evitar sobrecarga.  
 
 ### 4.3  Sistema de Progressão
-*[Como o jogador avança. Critérios de progressão, regressão e interrupção. Parâmetros que mudam entre fases.]*
+
+O avanço será obtido a partir dos acertos. No caso, cada conjunto de *timestamps* funcionará como uma "fase". Um conjunto de fases irá compor uma música, caso o usuário tenha escolhido. 
+
+Para cada fase, teremos um ou mais questionamentos. 
+
+Errar faz com que seja decrementado um contador de tentativas restantes. Você pode avançar de fase, caso o contador de tentativas restantes não esteja zerado. Caso o contador esteja zerado, será necessário escutar novamente o conjunto de *timestamps* atual e acertar o questionamento.
+
 **Justificativa clínica:**
+
 Progressão baseada em desempenho consistente, não em acerto bruto. Calibração terapêutica requer controle de intensidade.
+
 **Guiding Principle:**
-*[ex: GP-03]*
+
+GP-02 (Evitar deixar o jogo inflexível e desestimulante) e GP-04 (Sessões prolongadas ou sem controle de carga podem aumentar fadiga).
+
 **Hipótese de design:**
-*[Por que acreditamos que essa lógica de progressão ajudará essa população?]*
+
+A interrupção completa do fluxo sonoro em caso de acúmulo de erros e a necessidade de repetir desde o começo pode ser desnecessariamente frustrante. A lógica de progressão proposta busca amenizar essa frustração e manter o usuário engajado na tarefa, trazendo benefícios a partir da permanência no exercício terapêutico.
+
+**Origem PPI:**
+
+Evidências derivadas do comportamento do usuário U3-S1, que apresentou redução de tolerância à frustração com o aumento da dificuldade, e da necessidade relatada pelo cuidador C1 de adequar o ritmo para manter a adesão sem gerar sobrecarga.   
 
 ### 4.4  Onboarding
-> ⚙ *Para populações com barreira de leitura (surdos, baixa escolaridade, crianças), o onboarding visual não é acessibilidade opcional. É requisito de mecânica.*
-*[Como o jogador aprende a jogar. Demonstração, tutorial, suporte visual. Sem dependência de leitura quando relevante.]*
+
+- O processo de aprendizado do jogo variará conforme a necessidade do usuário:Para perfis autônomos (ex: Suporte 1): O tutorial será embutido e opcional. O design permitirá início rápido da partida, visto que esses usuários costumam compreender rapidamente as regras e a progressão visual.   
+
+- Para perfis que requerem instrução (ex: Suporte 2): Será disponibilizada uma demonstração animada visual (sem dependência de texto longo) antes do início da primeira partida, mostrando exatamente o que deve ser clicado/tocado.   
+
+- Para perfis com necessidade de mediação (Suporte 3): Haverá um modo de "Treino Pré-Jogo" sem contagem de pontuação ou regressiva, desenvolvido para uso com suporte físico e verbal do terapeuta, permitindo a compreensão da associação de causa e efeito na tela antes de introduzir qualquer desafio de memória.
+
+
 **Guiding Principle:**
-*[ex: GP-01]*
+
+GP-05 (A abstração da relação causa-efeito na tela é uma barreira severa que exige treino antes da demanda cognitiva) e GP-01 (Tornar acessível para diferentes tipos de usabilidade).
+
 **Hipótese de design:**
-*[Por que acreditamos que esse onboarding será suficiente para essa população?]*
+
+Acreditamos que a divisão do onboarding em três camadas atenderá à alta heterogeneidade funcional do espectro autista mapeada no PPI. Ao remover tutoriais forçados para perfis com autonomia digital (S1), evitamos o tédio e a perda de engajamento precoce. Para o perfil S2, a demonstração puramente visual contorna possíveis barreiras de leitura e interpretação de texto. Por fim, para o perfil S3, a remoção total da pressão temporal (cronômetro) e cognitiva (o construto N-Back) no "Treino Pré-Jogo" permite que o usuário e o mediador foquem inteiramente em quebrar a barreira primária de abstração — compreender a relação de causa e efeito dos cliques na interface.
 
 ## 5  DINÂMICAS  —  MDA: DYNAMICS
-> ⚙ *Descreva como as mecânicas geram experiência ao longo de uma sessão e ao longo do tempo.*
+
+- O jogo se inicia com a avaliação do estado atual da criança e a seleção do estímulo auditivo preferido (músicas de diferentes gêneros ou ruídos específicos).   
+
+- A sessão progride com a execução contínua do áudio (fases com duração padrão de 30 segundos, ajustáveis conforme tolerância).   
+
+- A música pausa, o cronômetro entra em cena e o desafio N-Back é apresentado, exigindo o active recall.   
+
+- Ao final de uma partida completa, a criança recebe a pontuação enfatizando os acertos e ganha a recompensa de escutar a música inteira sem pausas. 
 
 ### 5.1  Arco de uma Sessão Típica
-*[Descreva o fluxo de uma sessão do início ao fim: entrada, aquecimento, progressão, encerramento. Duração esperada por sessão e por fase.]*
+
+- O jogo avalia o nível de memória de curto prazo (especialmente para usuários com TDAH associado).   
+
+- A progressão de dificuldade se dá pelo aumento do número "N" de passos atrás que devem ser lembrados, ou pela complexidade/velocidade do timestamp musical.   
+
+- Caso o contador de tentativas zere na fase, o jogo não emite telas punitivas; em vez disso, o usuário escuta o conjunto de timestamps novamente para consolidar o aprendizado.   
 
 ### 5.2  Progressão Longitudinal
-*[Como o jogo evolui ao longo de múltiplas sessões. Como o sistema ajusta dificuldade. Critérios de avanço entre sessões.]*
+
+- Variável N-Back: Distância do estímulo a ser lembrado (1-back, 2-back, etc.).
+
+- Velocidade (BPM): Alteração no andamento da música ou ritmo do metrônomo.   
+
+- Duração da fase: Tempo de exposição aos blocos sonoros antes da pausa, utilizando 30 segundos como base inicial e permitindo expansão se a criança estiver engajada.
 
 ### 5.3  Calibração de Intensidade Terapêutica
-> ⚙ *Esta subseção é exclusiva do GDD científico. Descreva como a intensidade terapêutica é controlada pelo sistema.*
-*[Descreva as variáveis que controlam intensidade terapêutica: velocidade, tempo de resposta, área de alvo, duração, frequência. Limites de segurança.]*
+
+- Variável N-Back: Distância do estímulo a ser lembrado (1-back, 2-back, etc.).
+
+- Velocidade (BPM): Alteração no andamento da música ou ritmo do metrônomo.   
+
+- Duração da fase: Tempo de exposição aos blocos sonoros antes da pausa, utilizando 30 segundos como base inicial e permitindo expansão se a criança estiver engajada.
 
 ## 6  EXPERIÊNCIA PRETENDIDA  —  PLAYER EXPERIENCE (MDA: AESTHETICS)
-> ⚙ *Descreva a experiência que o jogo pretende provocar, não o visual, mas a sensação.*
-> ⚙ *MDA Aesthetics: sensation, fantasy, narrative, challenge, fellowship, discovery, expression, submission.*
-> ⚙ *Para populações clínicas, a experiência pretendida deve ser calibrada à condição e ao contexto de uso.*
-> ⚙ *Referência: Hunicke, LeBlanc e Zubek (2004). O termo Aesthetics no MDA refere-se à experiência do jogador, não ao visual.*
-*[Descreva a experiência pretendida. Quais dimensões do MDA Aesthetics são prioritárias para esta população e este objetivo terapêutico?]*
+
+As dimensões prioritárias para esta população são Sensation (Sensação) e um Challenge (Desafio) estritamente calibrado. A experiência pretendida deve servir como um "ponto de conforto" e ferramenta de autorregulação. O jogador deve se sentir estimulado pela música, mas em um ambiente seguro, onde os "atritos" ficam exclusivamente restritos ao exercício de memória e atenção, sem sobrecarga sensorial desnecessária. Para isso, a ausência de pressão punitiva por erro garantirá uma experiência lúdica fluida, com o jogador sentindo-se no controle da dificuldade.
 
 ## 7  ELEMENTAL TETRAD
-> ⚙ *O Elemental Tetrad (Jesse Schell) estrutura o jogo em quatro elementos: Mechanics, Story, Aesthetics, Technology.*
-> ⚙ *Para cada elemento: descrição padrão de GDD mais restrições explícitas da população incorporadas.*
 
 ### 7.1  Mechanics  —  Regras e Sistemas
-*[Síntese das mecânicas principais. Regras do jogo. Loop de jogo. Referência à Seção 4 para detalhamento.]*
-**Restrições da população:**
-*[Ex: ausência de feedback sonoro como requisito; contraste visual como parâmetro crítico; duração máxima de sessão como limite de segurança.]*
+
+- Execução musical pausada por ciclos cronometrados, onde o jogador realiza o *Active Recall* de estímulos anteriores (N-Back) e avança caso atinja a pontuação ou esgote as tentativas disponíveis.   
+
+- Restrições da população: Erros não devem produzir punições sensoriais; deve haver mecanismo de regressão de dificuldade facilitado para mitigar a frustração (especialmente útil para TEA associado a TOD e TDAH).   
 
 ### 7.2  Story  —  Narrativa e Contexto
-*[Contexto narrativo do jogo, se existir. Pode ser mínima em jogos terapêuticos abstratos.]*
-**Restrições da população:**
-*[Ex: narrativa não pode depender de texto; elementos culturais relevantes para a população devem ser incorporados quando possível.]*
+
+- O jogador assume o papel de um músico aprendiz.   
+
+- Um "professor" narra os trechos tocados e, em seguida, realiza perguntas para testar a memória do aluno, o que justifica a narração de fundo e fornece um envelopamento narrativo amigável para o N-Back.  
 
 ### 7.3  Aesthetics  —  Visual, Som e Sensação
-*[Direção visual, paleta de cores, estilo gráfico, design de som. Referência à Seção 6.]*
-**Restrições da população:**
-*[Ex: alto contraste como requisito; ausência de áudio como característica esperada; campo visual limpo.]*
+
+- Apresentação visual por meio de blocos de ondas sonoras ou notas musicais enfileiradas.   
+
+- Restrições da população: Fundo de tela branco/neutro como padrão para conforto visual. Controle absoluto de volume musical, permitindo silenciamento se a criança desejar focar apenas no estímulo visual. As cores dos blocos devem ser customizáveis para evitar rejeição intencional por hiperfoco em cores específicas. 
 
 ### 7.4  Technology  —  Plataforma e Implementação
-*[Plataforma, tecnologia de interação, requisitos técnicos de hardware. Limitações de infraestrutura do contexto de uso.]*
-**Restrições da população:**
-*[Ex: funcionar em hardware doméstico de baixo custo; câmera padrão sem sensor de profundidade; conectividade limitada.]*
+
+- Plataformas Web, Desktop e Mobile (abrangência multiplataforma).   
+
+- Interação por meio de cliques de mouse ou touchscreen, democratizando o acesso e facilitando o uso domiciliar por perfis que não possuem computador (majoritariamente usuários de tablets).  
 
 ## 8  MAPEAMENTO LM-GM
 > ⚙ *LM-GM: Learning Mechanics e Game Mechanics (Arnab et al., 2015). Seção exclusiva do GDD científico.*
@@ -196,72 +262,116 @@ Progressão baseada em desempenho consistente, não em acerto bruto. Calibraçã
 
 | Objetivo clínico / educacional | Mecânica de jogo | Como operacionaliza | GP |
 | --- | --- | --- | --- |
-| ex: desenvolver coordenação motora fina | ex: captura de alvos por rastreamento de mãos | ex: o alvo exige precisão de posicionamento dentro de janela temporal | ex: GP-03 |
-| ex: manter engajamento terapêutico | ex: progressão gradual de dificuldade | ex: dificuldade aumenta conforme consistência, evitando frustração e tédio | ex: GP-03 |
-| [adicionar linhas conforme necessário] |  |  |  |
+| Desenvolver memória de trabalho (manutenção e atualização) | Active Recall (N-Back) | Exige que o jogador retenha a informação sonora e a acesse após N passos | GP-02 |
+| Manter engajamento e tolerância à frustração | Feedback neutro para erros e regressão facilitada | Evita sobrecarga sensorial e permite que o jogador ajuste o desafio antes de desistir | GP-03 |
+| Promover autorregulação (ponto de conforto) | Customização sensorial (volume, gênero musical, interface neutra) | Permite adequar o ambiente virtual ao perfil sensorial único do usuário, minimizando gatilhos | GP-03, GP-01 |
 
 ## 9  PERSONAS E REQUISITOS DERIVADOS
 > ⚙ *Personas em formato sintético, derivadas do F03 do ciclo de PPI. Não reproduza o F03 completo aqui.*
 > ⚙ *Cada persona deve gerar pelo menos três requisitos operacionalizáveis. Atualize a cada novo ciclo de PPI.*
 > ⚙ *Personas não identificam participantes individuais. São perfis compostos derivados da síntese do PPI.*
 
-### 9.1  Persona 1 — [Nome funcional]
-**Identificação funcional:** *ex: Usuário adulto com limitação motora e alta motivação lúdica*
-**Ciclo PPI de origem:** *ex: PPI-surdos-v1*
-**Contexto de uso:** *ex: uso domiciliar, sessões curtas, autonomia limitada*
-**Requisitos derivados:** *listar abaixo*
-–  ex: feedback visual explícito para falha de colisão
-–  ex: onboarding por demonstração visual sem dependência de texto
-–  ex: fundo escuro como opção ou padrão
-**Guiding Principles relacionados:** *ex: GP-01, GP-02*
-**Impacto nas decisões:** *ex: Seções 4, 10, 11*
-**Status de validação:** *ex: Válida / Válida com ressalva — especificar lacuna*
+### 9.1  Persona 1 — O Explorador Focado (Suporte 1)
 
-### 9.2  Persona 2 — [Nome funcional]
-**Identificação funcional:** *a preencher*
-**Ciclo PPI de origem:** *a preencher*
-**Contexto de uso:** *a preencher*
-**Requisitos derivados:** *listar abaixo*
-*[requisito 1]*
-*[requisito 2]*
-*[requisito 3]*
-**Guiding Principles relacionados:** *a preencher*
-**Impacto nas decisões:** *a preencher*
-**Status de validação:** *a preencher*
+**Identificação funcional:** Usuário autônomo digitalmente, compreende regras rapidamente, mas pode ter frustração rápida (ex: comorbidade TDAH/TOD).
 
-### 9.3  Persona 3 — [Nome funcional]
-**Identificação funcional:** *a preencher*
-**Ciclo PPI de origem:** *a preencher*
-**Contexto de uso:** *a preencher*
-**Requisitos derivados:** *listar abaixo*
-*[requisito 1]*
-*[requisito 2]*
-*[requisito 3]*
-**Guiding Principles relacionados:** *a preencher*
-**Impacto nas decisões:** *a preencher*
-**Status de validação:** *a preencher*
+**Ciclo PPI de origem:** PPI-ATGCP-TEA (Perfil U1-S1 a U3-S1)
+
+**Contexto de uso:** Domiciliar ou clínico, sessões autônomas após primeira instrução.
+
+**Requisitos derivados:** 
+
+– Tutorial rápido e "pulável".
+– Opção de regressão de fase voluntária ao sentir frustração.
+– Fundo de tela branco/neutro como padrão.
+
+**Guiding Principles relacionados:** GP-01, GP-02
+
+**Impacto nas decisões:** Seções 4.4, 5.2, 11.2
+
+**Status de validação:** Válida
+
+### 9.2  Persona 2 — O Competidor Sensível (Suporte 2)
+
+**Identificação funcional:** Baixa tolerância a falhas (alta competitividade), risco de rejeição por hiperfoco em cores/estímulos.
+
+**Ciclo PPI de origem:** PPI-ATGCP-TEA (Perfil U4-S2)
+
+**Contexto de uso:** Domiciliar com supervisão ou clínico.
+
+**Requisitos derivados:** 
+
+– Onboarding visual e concreto obrigatório na primeira vez.
+– Feedback de erro estritamente neutro (sem sons punitivos).
+– Customização de cores para os blocos de resposta.
+
+**Guiding Principles relacionados:** GP-03, GP-04
+
+**Impacto nas decisões:** Seções 4.2, 4.4, 10.1
+
+**Status de validação:** Válida (com necessidade de mais testes domiciliares)
+
+### 9.3  Persona 3 — O Aprendiz Mediado (Suporte 3)
+
+**Identificação funcional:** Alta barreira de abstração (dificuldade em entender a relação causa-efeito na tela) e necessidade de mediação física.
+
+**Ciclo PPI de origem:** PPI-ATGCP-TEA (Perfil U5-S3 e U6-S3)
+
+**Contexto de uso:** Estritamente clínico, com mediação física e verbal constante.
+
+**Requisitos derivados:**
+
+– Modo de "Treino Pré-jogo" (associação direta, sem N-Back, sem cronômetro).
+– Ritmo extremamente reduzido e controlável pelo mediador.
+– Obrigatoriedade de jogar sentado por segurança postural.
+
+**Guiding Principles relacionados:** GP-04
+
+**Impacto nas decisões:** Seções 2.3, 4.4, 11.3
+
+**Status de validação:** Válida
 
 ## 10  INTERFACE E ACESSIBILIDADE
 > ⚙ *Acessibilidade está integrada à especificação de interface, não é seção separada.*
 > ⚙ *Referência: WCAG 2.1, ISO 9241-210, UDL quando aplicável.*
 
 ### 10.1  Princípios de Interface
-*[Descreva os princípios que guiam as decisões de UI/UX. Ex: mínimo de texto, feedback visual prioritário, campo visual limpo.]*
+
+- A interface deve possuir mínimo de ruído visual (ex: evitar estrelinhas ou fundos excessivamente animados) para prevenir distração.   
+
+- As opções de resposta devem reter o mesmo símbolo visual (bloco) apresentado inicialmente na sequência sonora, facilitando o reconhecimento padronizado. 
 
 ### 10.2  Requisitos de Acessibilidade por Domínio
+
 **Visual:**
-*[ex: alto contraste obrigatório; opção de fundo escuro; tamanho mínimo de alvo]*
+
+- Cronômetro posicionado de forma visível na parte superior; opção mandatória de fundo branco/neutro; disposição enfileirada clara da estrutura da música.
+
 **Auditivo:**
-*[ex: todos os comandos de áudio com equivalente visual; ausência de áudio não é limitação]*
+
+- Opção de narração de fundo para os timestamps, facilitando o acompanhamento para pessoas com visão reduzida; controle ajustável de volume global (0 a 100%).
+
 **Motor:**
-*[ex: tempo mínimo de resposta ajustável; área de interação compatível com amplitude de movimento da população]*
+
+- Área de clique (hitbox) dos blocos deve ser generosa para acomodar variações de coordenação motora fina fina em telas touchscreen; tempo de resposta ao N-Back ajustável.
+
 **Linguístico:**
-*[ex: português simples; evitar estrangeirismos; onboarding sem dependência de leitura]*
+
+- Interface com mínimo de texto; foco em ícones universais (ex: play, pause, volume, recarregar).
+
 **Cultural:**
-*[ex: elementos culturais relevantes para a população incorporados; validados no PPI]*
+
+- Uso de estímulos musicais familiares ou agradáveis à criança (ex: músicas infantis populares ou temas de interesse), sem imposição de gêneros específicos.
 
 ### 10.3  Telas e Fluxo de Navegação
-*[Descreva as telas principais e o fluxo de navegação. Pode ser complementado com wireframes em documento anexo.]*
+
+1) Tela Inicial/Perfil: Avaliação rápida do estado atual (humor) e escolha do estímulo (música/ruído).   
+
+2) Modo Treino (Onboarding): Demonstração visual ou modo sem pontuação.   
+
+3) Tela de Jogo: Cronômetro no topo, visualização em cascata (blocos) da música; painel de resposta que surge apenas durante as pausas de questionamento.   
+
+4) Tela de Sessão Finalizada: Pontuação destacando apenas acertos e botão para ouvir a música completa (reforçador).   
 
 ## 11  PARÂMETROS DE FASE E PROGRESSÃO
 > ⚙ *Esta seção conecta o GDD científico ao protocolo clínico (ATGCP ou equivalente).*
@@ -271,24 +381,26 @@ Progressão baseada em desempenho consistente, não em acerto bruto. Calibraçã
 
 | Variável | Descrição e faixa de valores |
 | --- | --- |
-| ex: velocidade do alvo | faixa: X a Y; impacto: demanda de tempo de reação |
-| ex: destroy_time | faixa: X a Y; impacto: pressão temporal por alvo |
-| ex: tamanho do alvo | faixa: X a Y; impacto: demanda de precisão motora |
-| ex: duração da fase | faixa: X a Y; impacto: carga por sessão e fadiga |
-| [adicionar variáveis] |  |
+| Distância do N-Back | faixa: 1 a 3 (ou modo de associação direta 0 para S3); impacto: demanda primária de memória de trabalho |
+| Duração do clipe musical | faixa: 15s a 45s (padrão 30s); impacto: exigência de foco e risco de dispersão |
+| Complexidade das opções | faixa: 2 a 4 blocos de resposta; impacto: confusão visual e taxa de erro |
 
 ### 11.2  Critérios de Progressão, Regressão e Interrupção
 
 | Evento | Critério |
 | --- | --- |
-| Avanço de fase | ex: consistência de desempenho acima de X% em Y sessões consecutivas |
-| Regressão de fase | ex: queda de desempenho acima de X%, aumento de tempo de resposta, sinais de frustração |
-| Interrupção de sessão | ex: fadiga, desconforto visual, confusão sobre a tarefa, eventos adversos |
-| Interrupção do protocolo | ex: critérios clínicos definidos no protocolo derivado |
+| Avanço de fase | Acerto consistente nos questionamentos de N-Passos no limite de tempo |
+| Regressão de fase | Aumento de erros sequenciais ou solicitação ativa da criança (retorno a opções mais fáceis para evitar ataques de frustração). |
+| Interrupção de sessão | Irritabilidade persistente com a dificuldade, dispersão de olhar frequente, desengajamento da tarefa ou vocalizações de recusa. |
+| Interrupção do protocolo | Sinais consistentes de sobrecarga sensorial ou recusa persistente em participar ao longo de 3 sessões consecutivas. |
 
 ### 11.3  Faixas de Fase por Perfil
-> ⚙ *Defina faixas de entrada por perfil de usuário, não uma progressão linear universal.*
-*[Descreva faixas de fase recomendadas por persona ou grupo clínico. Ex: Persona 1 entrada conservadora, níveis X a Y.]*
+
+- Suporte 1 (S1): Entrada no N-Back = 1, duração de 30s. Progressão permitida até N=3 se engajado.
+
+- Suporte 2 (S2): Entrada no N-Back = 1, duração de 20-30s. Foco na repetição antes de aumentar o N para evitar frustração.   
+
+- Suporte 3 (S3): Associação direta (N=0) e sem limite de tempo punitivo. Foco apenas em entender a mecânica de resposta com mediação.
 
 ## 12  REQUISITOS TÉCNICOS CONSOLIDADOS
 > ⚙ *Esta seção alimenta diretamente o Doc 2 — Backlog Ágil. Organize por domínio com prioridade e origem.*
@@ -296,14 +408,13 @@ Progressão baseada em desempenho consistente, não em acerto bruto. Calibraçã
 
 | Domínio | Requisito | Prioridade | Origem |
 | --- | --- | --- | --- |
-| Funcional | ex: feedback visual explícito para falha de colisão | Alta | PPI-surdos-v1 / GP-02 |
-| Sensorial / Visual | ex: fundo escuro como opção ou padrão | Alta | PPI-surdos-v1 / GP-01 |
-| Acessibilidade | ex: onboarding sem dependência de texto em português | Alta | PPI-surdos-v1 / GP-01 |
-| Acessibilidade | ex: instrução em Libras no onboarding | Alta | PPI-surdos-v1 / GP-01 |
-| Interface | ex: recorte ou máscara visual, exibir apenas mãos | Média | PPI-surdos-v1 / GP-02 |
-| Progressão | ex: progressão por parâmetro dominante único por transição | Alta | Decisão de design / GP-03 |
-| Segurança | ex: critérios explícitos de interrupção de sessão | Alta | Protocolo clínico / GP-04 |
-| [adicionar] | [a preencher] | [prioridade] | [origem] |
+| Funcional | Feedback visual neutro para erros (sem punição sonora/visual) | Alta | PPI-ATGCP (U4-S2) |
+| Sensorial | Fundo de tela branco/neutro como padrão inicial | Alta | PPI-ATGCP (S1) |
+| Sensorial | Controle mestre de volume (0-100%) acessível durante o jogo | Alta | PPI-ATGCP |
+| Progressão | Botão de "regressão de fase" para manejo de frustração | Média | PPI-ATGCP (U3-S1)    |
+| Interface | Modo "Treino Pré-Jogo" sem cronômetro ou contagem de erro | Alta | PPI-ATGCP (S3) |
+| Acessibilidade | Tutorial rápido embutido com opção de "Pular" (Skip) | Média | Persona 1 (S1) |
+| Funcional | O jogo não deve exigir postura em pé; deve ser jogável sentado. | Alta | Persona 3 (S3) / PPI-ATGCP |
 
 ## 13  LACUNAS E DECISÕES PENDENTES
 > ⚙ *Seção viva, atualizada a cada ciclo de PPI e a cada iteração de desenvolvimento.*
@@ -312,9 +423,9 @@ Progressão baseada em desempenho consistente, não em acerto bruto. Calibraçã
 
 | Lacuna / Decisão pendente | Impacto | Ação necessária | Responsável |
 | --- | --- | --- | --- |
-| ex: Bloco 5.1 do PPI sem respostas — expectativas clínicas incompletas | Eixo 3 do PPI incompleto. Personas 1 e 3 com ressalva clínica. | Coletar bloco 5.1 em próximo ciclo de PPI | Pesquisador responsável |
-| ex: delay/latência no rastreamento — causa não confirmada | Pode ser limitação de hardware de teste ou do jogo | Investigação técnica antes de decisão | Equipe de desenvolvimento |
-| [adicionar lacunas] |  |  |  |
+| Viabilidade real do uso domiciliar sem supervisão para perfil S2 | Risco de abandono do jogo por frustração sem mediador | Incluir testes puramente domiciliares (sem clínicos presentes) no próximo ciclo PPI | Pesquisador responsável |
+| Direitos autorais das músicas | Limita o apelo do reforçador se as músicas favoritas da criança não puderem ser usadas | Pesquisar bibliotecas de áudio royalty-free ou permissões para uso em serious games | Equipe de desenvolvimento |
+| Desempenho do jogo em tablets antigos / de baixo custo | Travamentos ou lentidão podem ser confundidos com aumento de dificuldade pela criança (como ocorreu com U2-S1 no PPI). | Realizar testes de framerate e latência de toque em dispositivos mobile de entrada. | Equipe de desenvolvimento |
 
 ## 13A  HIPÓTESES PARA VALIDAÇÃO
 > ⚙ *Esta seção consolida todas as hipóteses de design dispersas na Seção 4.*
@@ -324,10 +435,9 @@ Progressão baseada em desempenho consistente, não em acerto bruto. Calibraçã
 
 | H-ID | Hipótese | Guiding Principle | Será verificada no Doc 3 |
 | --- | --- | --- | --- |
-| H-01 | ex: O onboarding visual permitirá uso autônomo sem necessidade de instrução presencial | GP-01 | Sim |
-| H-02 | ex: O feedback visual de falha reduzirá confusão e erros repetidos durante a tarefa | GP-02 | Sim |
-| H-03 | ex: A progressão gradual manterá engajamento ao longo das sessões do protocolo | GP-03 | Sim |
-| H-04 | ex: Os limites de duração e critérios de interrupção prevenirão fadiga excessiva | GP-04 | Sim |
-| [adicionar] |  |  |  |
+| H-01 | O feedback neutro de falha evitará o abandono prematuro por parte de usuários com baixa tolerância à frustração. | GP-02 | Sim |
+| H-02 | O uso do jogo via tela touchscreen (tablet/celular) aumentará a adesão e o tempo de uso em comparação ao Desktop. | GP-01 | Sim |
+| H-03 | A opção de ouvir a música inteira ao final da partida atuará como um reforçador positivo forte o suficiente para garantir a repetição do ciclo. | GP-03 | Sim |
+| H-04 | O Modo "Treino Pré-Jogo" (Associação Direta N=0) permitirá que usuários S3 compreendam a relação de clique/toque na tela, possibilitando a futura introdução do N-Back. | GP-05 | Sim |
 
 > ⚠ **Cada hipótese deve ser rastreável a um Guiding Principle. Hipóteses sem GP de origem indicam lacuna na Seção 3A.**
