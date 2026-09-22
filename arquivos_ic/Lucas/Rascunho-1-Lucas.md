@@ -1,4 +1,4 @@
-# SGDD - Lucas
+# Rascunho - Lucas
 
 ## Jogo baseado em N-Back Task
 
