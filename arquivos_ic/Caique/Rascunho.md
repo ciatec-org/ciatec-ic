@@ -86,8 +86,9 @@ O **desfecho primário** visa à quantificação do perfil de adaptação cognit
 | GP-03 | Usuários respondem melhor à progressão gradual do que a saltos bruscos de dificuldade | Manter engajamento ao longo das sessões | Progressão adaptativa por desempenho consistente, além de um progressão gradual durante as fases (iniciado após a primeira fase) |
 | GP-04 | Sessões prolongadas ou sem controle de carga podem aumentar fadiga e reduzir adesão | Preservar segurança e tolerabilidade | Limite de duração e critérios de interrupção |
 | GP-05 | Usuários apresentam distrações em relação à diversas cores (não por desconforto e sim por seletividade), atrapalhando no foco ao objetivo | Manter foco no objetivo | Sem abuso de cores, usar cores em pontos específicos, mas manter a estética lúdica |
-| GP-6 | Usuários apresentaram preferências musicais (ou sem ela) | Causar o menor desconforto (chegar ao desconforto nulo) | Uso controlado do som (principalmente por ser um cenário industrial), permitir o controle de volume |
-| GP-7 | Os usuários demonstraram mais uso de *tablet* ao contrário de outros dispositivos | Maior acessibilidade | Projetar projeto também para dispositivos móveis |
+| GP-06 | Usuários apresentaram preferências musicais (ou sem ela) | Causar o menor desconforto (chegar ao desconforto nulo) | Uso controlado do som (principalmente por ser um cenário industrial), permitir o controle de volume |
+| GP-07 | Os usuários demonstraram mais uso de *tablet* ao contrário de outros dispositivos | Maior acessibilidade | Projetar projeto também para dispositivos móveis |
+| GP-08 | Usuários apresentam dificuldades em adaptar-se a mudanças de situações | Não ter mudanças bruscas, mas manter a lógica central do jogo | Controle das mudanças do cenário. |
 
 
 ## 4  MECÂNICAS CORE  —  MDA: MECHANICS
@@ -283,16 +284,20 @@ A construção será feito na plataforma Unity para computadores, e Dart/Flutter
 *[Ex: funcionar em hardware doméstico de baixo custo; câmera padrão sem sensor de profundidade; conectividade limitada.]*
 Funcionar em hardware doméstico de baixo custo.
 
-## 8  MAPEAMENTO LM-GM
-> ⚙ *LM-GM: Learning Mechanics e Game Mechanics (Arnab et al., 2015). Seção exclusiva do GDD científico.*
-> ⚙ *Para cada objetivo clínico ou educacional, identifique qual mecânica de jogo o operacionaliza e qual Guiding Principle sustenta essa relação.*
-> ⚠ **Se um objetivo clínico não tiver mecânica correspondente, é lacuna de design. Registre na Seção 13.**
+#### 8  MAPEAMENTO LM-GM
+⚙  *LM-GM: Learning Mechanics e Game Mechanics (Arnab et al., 2015). Seção exclusiva do GDD científico.* [2, 3]  
+⚙  *Para cada objetivo clínico ou educacional, identifique qual mecânica de jogo o operacionaliza e qual Guiding Principle sustenta essa relação.* [2, 3]  
+⚠  **Se um objetivo clínico não tiver mecânica correspondente, é lacuna de design. Registre na Seção 13.** [2, 3]
 
 | Objetivo clínico / educacional | Mecânica de jogo | Como operacionaliza | GP |
 | --- | --- | --- | --- |
-| ex: desenvolver coordenação motora fina | ex: captura de alvos por rastreamento de mãos | ex: o alvo exige precisão de posicionamento dentro de janela temporal | ex: GP-03 |
-| ex: manter engajamento terapêutico | ex: progressão gradual de dificuldade | ex: dificuldade aumenta conforme consistência, evitando frustração e tédio | ex: GP-03 |
-| [adicionar linhas conforme necessário] |  |  |  |
+| **Exercitar a aprendizagem espacial e a memória topográfica** | Navegação 3D egocêntrica guiada por placas de sinalização coloridas | O jogador percorre os corredores da fábrica identificando e associando a cor das placas aos setores de entrega correspondentes, construindo a representação mental do mapa do ambiente. | **GP-01 / GP-03** |
+| **Estimular a flexibilidade cognitiva e a reorientação por recalculo de rota** | Perturbação ambiental dinâmica (ocultação de placas e bloqueio de vias) | O sistema introduz fumaça/sujeira sobre os sinalizadores e bloqueia imprevistamente corredores habituais, forçando a descontinuidade da rotina e a busca de rotas alternativas. | **GP-03** |
+| **Manter o engajamento terapêutico e promover a autorregulação** | Progressão adaptativa por desempenho com suporte silencioso | O jogo ajusta a dificuldade conforme a consistência de acertos e reduz silenciosamente os obstáculos em caso de hesitação prolongada, mantendo o enquadramento positivo sem telas de erro. | **GP-03 / GP-02** |
+| **Mensurar biomarcadores digitais de navegação espacial de forma não invasiva** | Telemetria silenciosa em tempo real (*Spatial Navigation Task*) | O motor de jogo registra continuamente a hesitação angular e a latência nas intersecções, a eficiência do percurso e a suavidade da trajetória durante a execução normal das entregas. | **GP-02 / GP-04** |
+| **Assegurar autonomia de uso para indivíduos com barreiras de linguagem escrita** | Onboarding prático e exclusivamente visual (Fase 0 - Tutorial) | Apresenta animações curtas em *loop*, ícones concretos e prática guiada de movimentação e entrega, eliminando a dependência de texto escrito para compreensão das regras | **GP-01** |
+| **Prevenir sobrecarga sensorial e hiper-reatividade** | Sistema de feedback calibrado de baixa carga sensorial | Utiliza iluminação limpa e direcionada nos alvos, efeitos sonoros curtos e suaves, ausência de alarmes punitivos, controle de volume e limite de 30 segundos por fase. | **GP-02 / GP-04 / GP-06** |
+
 
 ## 9  PERSONAS E REQUISITOS DERIVADOS
 #### 9  PERSONAS E REQUISITOS DERIVADOS
@@ -301,7 +306,6 @@ Funcionar em hardware doméstico de baixo custo.
 ⚙  *Cada persona gera requisitos operacionalizáveis diretamente vinculados aos Guiding Principles e às Seções de mecânicas, interface e progressão.*  
 ⚙  *Personas não identificam participantes individuais; são perfis compostos representativos do ecossistema do jogo.*
 
----
 
 ##### 9.1  Persona 1 — Criança com TEA Nível de Suporte 1 (Autonomia e Flexibilidade)
 
@@ -309,7 +313,7 @@ Funcionar em hardware doméstico de baixo custo.
   Usuário infantojuvenil (5 a 10 anos) com Transtorno do Espectro Autista (TEA) Nível de Suporte 1 (suporte pontual). Apresenta boa autonomia no uso de dispositivos digitais (tablets e computadores), comunicação verbal funcional e atenção direcionada. Pode apresentar comorbidades neurocomportamentais como TDAH e Transtorno Opositivo Desafiador (TOD), que afetam a regulação emocional e a tolerância à frustração diante de falhas.
 
 * **Ciclo PPI de origem:** 
-  `PPI-ATGCP-TEA-v1` (composto a partir dos dados dos participantes U1-S1, U2-S1 e U3-S1).
+  `PPI-ATGCP-TEA` (composto a partir dos dados dos participantes U1-S1, U2-S1 e U3-S1).
 
 * **Contexto de uso:** 
   Uso autônomo em ambiente domiciliar ou clínico, em partidas de curta duração sob supervisão direta ou indireta de adultos.
@@ -327,9 +331,7 @@ Funcionar em hardware doméstico de baixo custo.
   Seções 4.1 (Mecânica Principal), 4.2 (Feedback), 4.3 (Progressão), 4.4 (Onboarding), 10 (Interface e Acessibilidade) e 11 (Parâmetros de Fase).
 
 * **Status de validação:** 
-  Válida (sustentada por dados primários e diretos de sessões e entrevistas do PPI-v1).
-
----
+  Válida (sustentada por dados primários e diretos de sessões e entrevistas do PPI).
 
 ##### 9.2  Persona 2 — Criança com TEA Nível de Suporte 2 (Suporte Substancial e Sensibilidade a Mudanças)
 
@@ -337,7 +339,7 @@ Funcionar em hardware doméstico de baixo custo.
   Usuário infantil (5 a 10 anos) com TEA Nível de Suporte 2 (suporte substancial). Apresenta comunicação verbal restrita ou em consolidação, presença de hiperfoco em temas ou cores específicas, elevada inflexibilidade comportamental diante de alterações na rotina e maior susceptibilidade à hiper-reatividade sensorial (auditiva e visual).
 
 * **Ciclo PPI de origem:** 
-  `PPI-ATGCP-TEA-v1` (composto a partir de dados do participante U4-S2, com dados complementares do cuidador C1 e da profissional PC-B).
+  `PPI-ATGCP-TEA` (composto a partir de dados do participante U4-S2, com dados complementares do cuidador C1 e da profissional PC-B).
 
 * **Contexto de uso:** 
   Ambiente clínico ou domiciliar sob mediação e acompanhamento presencial constante de um cuidador ou profissional de saúde.
@@ -357,15 +359,13 @@ Funcionar em hardware doméstico de baixo custo.
 * **Status de validação:** 
   Válida com ressalva (dados baseados em sessão observada e relatos de cuidador e profissional; requer validação no protocolo experimental do Doc 3).
 
----
-
 ##### 9.3  Persona 3 — Profissional Mediador / Terapeuta (Acompanhamento e Telemetria)
 
 * **Identificação funcional:** 
   Profissional clínico (Psicólogo/ABA, Terapeuta Ocupacional, Psicopedagogo) ou educador especializado responsável pelo acompanhamento terapêutico, estimulação cognitiva visuoespacial e avaliação do desenvolvimento.
 
 * **Ciclo PPI de origem:** 
-  `PPI-ATGCP-TEA-v1` (composto a partir das entrevistas estruturadas com as profissionais PC-A e PC-B).
+  `PPI-ATGCP-TEA` (composto a partir das entrevistas estruturadas com as profissionais PC-A e PC-B).
 
 * **Contexto de uso:** 
   Consultórios clínicos, centros de reabilitação ou instituições especializadas durante ou ao final de sessões estruturadas de intervenção.
@@ -386,26 +386,53 @@ Funcionar em hardware doméstico de baixo custo.
 
 
 ## 10  INTERFACE E ACESSIBILIDADE
-> ⚙ *Acessibilidade está integrada à especificação de interface, não é seção separada.*
-> ⚙ *Referência: WCAG 2.1, ISO 9241-210, UDL quando aplicável.*
+#### 10  INTERFACE E ACESSIBILIDADE
 
-### 10.1  Princípios de Interface
-*[Descreva os princípios que guiam as decisões de UI/UX. Ex: mínimo de texto, feedback visual prioritário, campo visual limpo.]*
+⚙  *Acessibilidade está integrada à especificação de interface, não é uma seção separada.*  
+⚙  *Referências de design inclusivo: WCAG 2.1, ISO 9241-210 e Universal Design for Learning (UDL).*
 
-### 10.2  Requisitos de Acessibilidade por Domínio
-**Visual:**
-*[ex: alto contraste obrigatório; opção de fundo escuro; tamanho mínimo de alvo]*
-**Auditivo:**
-*[ex: todos os comandos de áudio com equivalente visual; ausência de áudio não é limitação]*
-**Motor:**
-*[ex: tempo mínimo de resposta ajustável; área de interação compatível com amplitude de movimento da população]*
-**Linguístico:**
-*[ex: português simples; evitar estrangeirismos; onboarding sem dependência de leitura]*
-**Cultural:**
-*[ex: elementos culturais relevantes para a população incorporados; validados no PPI]*
 
-### 10.3  Telas e Fluxo de Navegação
-*[Descreva as telas principais e o fluxo de navegação. Pode ser complementado com wireframes em documento anexo.]*
+##### 10.1  Princípios de Interface
+
+* **Campo Visual Limpo e Mínimo de Distratores:** Interface minimalista em estilo gráfico *cartoon* simplificado, com fundo neutro/branco por padrão no ambiente 3D da fábrica (baseado na preferência convergente de 100% dos participantes de Suporte 1 no PPI), eliminando poluição visual, iluminação piscante ou animações decorativas de fundo que geram dispersão atencional e hiperfoco indesejado (GP-02).
+* **Independência de Linguagem Escrita (Onboarding Visual):** Eliminação de textos longos e instruções verbais complexas. A interface prioriza o uso de cores contrastantes, ícones concretos e animações demonstrativas em *loop* (GP-01).
+* **Enquadramento Positivo e Ausência de Punição:** Exibição contínua do progresso acumulado (número de entregas realizadas com sucesso), sem contagens regressivas de vidas, cronômetros punitivos visíveis ou telas de "Game Over" (GP-02).
+* **Prevenção de Sobrecarga Sensorial:** Controle estrito das saídas auditivas e visuais, garantindo que o jogador não seja submetido a estímulos abruptos, luzes estroboscópicas ou sons de alta frequência (GP-02, GP-06).
+
+##### 10.2  Requisitos de Acessibilidade por Domínio
+
+* **Visual:**
+  * **Fundo e Contraste:** Fundo de tela neutro/branco por padrão e alto contraste visual entre as placas de sinalização, o robô caixeiro e os setores de entrega.
+  * **Parametrização de Paletas de Cores:** Menu de configurações que permite alterar ou restringir a paleta de cores das placas e setores para evitar a recusa de interação decorrente de hiperfoco ou aversão a cores específicas (GP-05).
+  * **Redução de Carga Estética:** Ausência de partículas dinâmicas, flashes visuais piscantes ou elementos decorativos em movimento ao fundo da fábrica.
+
+* **Auditivo:**
+  * **Equivalência Visual Total:** Todos os eventos e comandos sonoros do jogo possuem equivalentes visuais diretos (a ausência total de áudio não compromete a jogabilidade).
+  * **Controle Independente de Áudio:** Opção no menu para ajuste independente do volume da música de fundo (*BGM*) e dos efeitos sonoros de ação (*SFX*), permitindo desligar a *BGM* e manter apenas os *SFX* (GP-06).
+  * **Ausência de Sons Punitivos:** Eliminação de alarmes de erro, buzinas ou timbres estridentes em caso de falhas ou bloqueios de rota.
+
+* **Motor:**
+  * **Mapeamento Duplo de Controles:** Suporte nativo a comandos via teclado no PC (`W/A/S/D` e Setas direcionais) e a botões direcionais virtuais visíveis na tela em dispositivos móveis (*touchscreen*).
+  * **Área de Toque Expandida:** Botões virtuais na tela *touchscreen* com dimensões amplas e espaçamento adequado para acomodar variações na precisão motora e evitar toques acidentais.
+  * **Sem Exigência de Combinações Simultâneas:** Todas as ações de movimentação do robô são executadas por comandos únicos e sequenciais (sem exigir o pressionamento de duas teclas ao mesmo tempo).
+
+* **Linguístico:**
+  * **Tutorial Exclusivamente Visual:** Onboarding prático na Fase 0 com animações demonstrativas do robô e sinalizações coloridas, sem necessidade de leitura (GP-01).
+  * **Simbologia Concreta:** Substituição de rótulos de texto por ícones universais e visualmente intuitivos para representar setores, pacotes, menus e configurações.
+
+* **Cultural e Contextual:**
+  * **Ambientação Lúdica e Amigável:** Estética de fábrica estilizada (*cartoon*) com visual simpático do robô caixeiro, promovendo engajamento seguro sem ambientações sombrias ou ameaçadoras.
+
+
+##### 10.3  Telas e Fluxo de Navegação
+[Tela de Menu Principal] 
+│
+├──► [Fase 0: Tutorial / Onboarding Visual]
+│ 
+├──► [Jogo Principal / Início de Fase] ──► [Tela de Gameplay 3D (Fábrica)]
+│
+│ │ ├──► [Menu de Pausa] │ │ │ └──► [Tela de Conclusão de Fase] │ └──► [Menu de Configurações Sensoriais] ├── Controle de Volume (BGM / SFX) └── Seleção de Paleta de Cores
+
 
 ## 11  PARÂMETROS DE FASE E PROGRESSÃO
 > ⚙ *Esta seção conecta o GDD científico ao protocolo clínico (ATGCP ou equivalente).*
@@ -415,11 +442,13 @@ Funcionar em hardware doméstico de baixo custo.
 
 | Variável | Descrição e faixa de valores |
 | --- | --- |
-| ex: velocidade do alvo | faixa: X a Y; impacto: demanda de tempo de reação |
-| ex: destroy_time | faixa: X a Y; impacto: pressão temporal por alvo |
-| ex: tamanho do alvo | faixa: X a Y; impacto: demanda de precisão motora |
-| ex: duração da fase | faixa: X a Y; impacto: carga por sessão e fadiga |
-| [adicionar variáveis] |  |
+| Número de intersecções | faixa: entre 6 a 24 intersecções; onde pode ter poste de informações |
+| Número de placas | faixa: 1 a 4; impacto: pressão temporal por alvo |
+| Controle de audio | faixa: 30 decibés a 70 decibés; impacto: demanda de precisão motora |
+| Número de setores | faixa: 3 a 6 setores; impacto: carga por sessão e fadiga |
+| Número de entregas* | faixa: 10 a 30 entregas |
+|  |  |
+*futuramente modificável
 
 ### 11.2  Critérios de Progressão, Regressão e Interrupção
 
@@ -440,11 +469,11 @@ Funcionar em hardware doméstico de baixo custo.
 
 | Domínio | Requisito | Prioridade | Origem |
 | --- | --- | --- | --- |
-| Funcional | ex: feedback visual explícito para falha de colisão | Alta | PPI-surdos-v1 / GP-02 |
-| Sensorial / Visual | ex: fundo escuro como opção ou padrão | Alta | PPI-surdos-v1 / GP-01 |
-| Acessibilidade | ex: onboarding sem dependência de texto em português | Alta | PPI-surdos-v1 / GP-01 |
-| Acessibilidade | ex: instrução em Libras no onboarding | Alta | PPI-surdos-v1 / GP-01 |
-| Interface | ex: recorte ou máscara visual, exibir apenas mãos | Média | PPI-surdos-v1 / GP-02 |
+| Funcional | ex: feedback visual explícito para falha de colisão | Alta | PPI-surdos / GP-02 |
+| Sensorial / Visual | ex: fundo escuro como opção ou padrão | Alta | PPI-surdos / GP-01 |
+| Acessibilidade | ex: onboarding sem dependência de texto em português | Alta | PPI-surdos / GP-01 |
+| Acessibilidade | ex: instrução em Libras no onboarding | Alta | PPI-surdos / GP-01 |
+| Interface | ex: recorte ou máscara visual, exibir apenas mãos | Média | PPI-surdos / GP-02 |
 | Progressão | ex: progressão por parâmetro dominante único por transição | Alta | Decisão de design / GP-03 |
 | Segurança | ex: critérios explícitos de interrupção de sessão | Alta | Protocolo clínico / GP-04 |
 | [adicionar] | [a preencher] | [prioridade] | [origem] |
