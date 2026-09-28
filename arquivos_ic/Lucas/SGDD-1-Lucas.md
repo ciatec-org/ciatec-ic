@@ -14,7 +14,7 @@ Template v1.0  |  2026  |  CIATec
 
 ## 1  IDENTIFICAÇÃO DO PROJETO
 
-**Nome do jogo:** *a preencher*
+**Nome do jogo:** *Ritmo*
 
 **Versão do documento:** *v1.0 — ciclo PPI inicial*
 
@@ -38,15 +38,15 @@ Jogo baseado no paradigma *N-Back Task*, o qual possui como construto, de acordo
 
 *Foca em memória de trabalho, especificamente os processos de manutenção, atualização e controle atencional. O participante recebe uma sequência contínua de estímulos e deve indicar se o estímulo atual corresponde ao apresentado N posições antes.*
 
-No caso, a jogabilidade consistirá em partidas onde, por ciclos determinados de tempo, haverão estímulos sonoros sequenciais enumerados, que poderão ser musicais ou não, dividos em *timestamps* delimitados por metrônomo. 
+No caso, a jogabilidade consistirá em partidas onde, por ciclos determinados de tempo, haverá estímulos sonoros sequenciais enumerados, que poderão ser musicais ou não, divididos em *timestamps* delimitados por metrônomo. 
 
-No que diz respeito às músicas, haverão diferentes gêneros para maior alcance de gostos pessoais.
+No que diz respeito às músicas, haverá diferentes gêneros para maior alcance de gostos pessoais.
 
-Cada ciclo de tempo será cronometrado e, quando chegar ao fim, o jogador será questionado a respeito de algum(s) dos estímulos anteriores e deverá responder de maneira correta qual foi o som ou parcela de música que ocorreu em algum(s) *timestamp(s)* específico(s) anterior(es). Depois, haverão mais ciclos até que a sequência se encerre.
+Cada ciclo de tempo será cronometrado e, quando chegar ao fim, o jogador será questionado a respeito de algum(s) dos estímulos anteriores. No caso, ao final, ele será exposto a um estímulo e deverá responder de maneira correta se aquele som ou parcela de música ocorreu *N-timestamp(s)* atrás (*resposta: sim ou não*). Depois, haverá mais ciclos até que a sequência se encerre completamente.
 
 A partir do desempenho do jogador, o sistema por baixo dos panos se adaptará de maneira inteligente para melhor adequamento às necessidades que forem identificadas dinamicamente.
 
-O público alvo são usuários finais jovens TEA. A construção do jogo levará em consideração, inicialmente, as necessidades relatadas em documento *PPI* fornecido pela organização, com relatos reais que envolvem pacientes, cuidadores e profissionais relacionados.
+O público-alvo são usuários finais jovens TEA. A construção do jogo levará em consideração, inicialmente, as necessidades relatadas em documento *PPI* fornecido pela organização, com relatos reais que envolvem pacientes, cuidadores e profissionais relacionados.
 
 Teríamos, então, dificuldade adaptativa, uma interface amigável e um jogo capaz de manter os jogadores imersos.
 
@@ -109,7 +109,24 @@ O ensino de teoria musical ou o desenvolvimento de habilidades rítmicas profiss
 
 **Descrição:**
 
-Quando o tempo pré-estabelecido para exibição de som terminar, jogador deve selecionar corretamente dentre opções de áudio oferecidas em um painel para indicar qual som ocorreu durante um intervalo de tempo **N-Passos** atrás. A interação com o painel é através de cliques com *mouse ou touchscreen*.
+Exposição cronometrada a estímulos divididos em *timestamps*.
+
+Quando o tempo pré-estabelecido para exibição de som terminar, o jogador será exposto a um estímulo a mais. Ele deve selecionar corretamente entre **sim ou não** para indicar se aquele foi o estímulo que ocorreu **N-Passos** atrás. A interação com o painel é através de cliques com *mouse ou touchscreen*.
+
+**e.g.**
+
+- Tempo definido: **seis timestamps, cada um com 1 segundo**
+- Jogo começa:
+
+| Timestamp | 0 | 1 | 2 | 3 | 4 | 5 |
+| --- | --- | --- | --- | --- | --- | --- |
+| Estímulo (letras são sons) | E | A | D | G | C | A |
+
+- **Cronômetro finalizado** -> **timestamp atual: 6**
+- Ouça o seguinte estímulo: **D**
+- Ele foi o mesmo que ocorreu **4 timestamps atrás?**
+- Resposta: **Sim ou Não**
+
 
 **Justificativa clínica:**
 
@@ -154,9 +171,11 @@ Evidências originadas da observação do usuário U4-S2, que demonstrou alta co
 
 O avanço será obtido a partir dos acertos. No caso, cada conjunto de *timestamps* funcionará como uma "fase". Um conjunto de fases irá compor uma música, caso o usuário tenha escolhido. 
 
-Para cada fase, teremos um ou mais questionamentos. 
+Para cada fase, teremos **um ou mais questionamentos**. 
 
-Errar faz com que seja decrementado um contador de tentativas restantes. Você pode avançar de fase, caso o contador de tentativas restantes não esteja zerado. Caso o contador esteja zerado, será necessário escutar novamente o conjunto de *timestamps* atual e acertar o questionamento.
+Errar faz com que seja decrementado um **contador de tentativas restantes**. Inicialmente, ele será definido com a quantidade de **3 tentativas**. Porém, esse valor poderá ser alterado dinamicamente pelo sistema a partir do seu aprendizado obtido a respeito do usuário, ou, no caso de pessoas que necessitem de mais suporte, por um mediador no controle das variáveis principais do jogo.
+
+Você pode avançar de fase, caso o contador de tentativas restantes não esteja zerado. Caso o contador esteja zerado, será necessário escutar novamente o conjunto de *timestamps* atual e acertar o questionamento. **O padrão de estímulos será idêntico**.
 
 **Justificativa clínica:**
 
@@ -213,17 +232,35 @@ Acreditamos que a divisão do onboarding em três camadas atenderá à alta hete
 
 - Variável N-Back: Distância do estímulo a ser lembrado (1-back, 2-back, etc.).
 
-- Velocidade (BPM): Alteração no andamento da música ou ritmo do metrônomo.   
+- Velocidade (BPM): Alteração no andamento da música ou ritmo do metrônomo, podendo variar de **60 BPM até 120 BPM** .
 
 - Duração da fase: Tempo de exposição aos blocos sonoros antes da pausa, utilizando 30 segundos como base inicial e permitindo expansão se a criança estiver engajada.
 
 ### 5.3  Calibração de Intensidade Terapêutica
 
-- Variável N-Back: Distância do estímulo a ser lembrado (1-back, 2-back, etc.).
+A calibração da intensidade define como o jogo manipula as variáveis da Seção 5.2 para manter o usuário na zona ótima de desafio, evitando tanto o tédio quanto a sobrecarga sensorial. Esta calibração será dividida em dois eixos: **Automática (Sistêmica)** e **Manual (Mediador)**.
 
-- Velocidade (BPM): Alteração no andamento da música ou ritmo do metrônomo.   
+#### 1. Calibração Automática (Motor Dinâmico)
 
-- Duração da fase: Tempo de exposição aos blocos sonoros antes da pausa, utilizando 30 segundos como base inicial e permitindo expansão se a criança estiver engajada.
+O ajuste dinâmico da dificuldade não dependerá apenas de condicionais simples (se/então), podendo ser modelado através de, por exemplo, algoritmos de Aprendizado por Reforço.
+
+- Estado: O sistema avalia o estado atual do jogador a cada ciclo, considerando métricas como o tempo de resposta, a contagem de acertos contínuos e o número de tentativas gastas no painel de respostas (Sim/Não).
+- Ação: Com base no estado, o sistema decide a próxima ação: aumentar o N-Back em +1, incrementar a velocidade da música (BPM), manter os parâmetros atuais ou facilitar o desafio (regressão de fase).
+- Recompensa: O algoritmo busca otimizar a tolerância do jogador, recompensando ações sistêmicas que resultem em partidas duradouras sem falhas consecutivas, prevenindo a frustração que engatilha o abandono precoce.
+
+#### 2. Regras de Gatilho de Borda (Fallback)
+
+Para garantir a segurança clínica e evitar que o algoritmo extrapole limites, regras rígidas de segurança devem ser estabelecidas:
+
+- Aumento de Carga: O N-Back só poderá subir caso o jogador alcance 100% de precisão em 3 fases consecutivas na mesma sessão.
+- Redução de Carga: Dois erros consecutivos (zerar o contador de tentativas duas vezes na mesma fase) forçam a redução imediata da velocidade (BPM) ou a queda do nível do N-Back.
+
+#### 3. Calibração Manual (Interface do Mediador)
+
+Para contemplar o público de Suporte 3 (S3) ou sessões mediadas de Suporte 2 (S2), o sistema fornecerá um Dashboard clínico ou atalhos de teclado para o terapeuta:
+
+- Trava de Variável: O terapeuta poderá fixar o nível de **N-Back** (ex: travar em N=1) ou travar o **BPM**, impedindo que o algoritmo dinâmico aumente a dificuldade se notar sinais físicos de irritabilidade no paciente antes que o sistema detecte falhas computacionais.
+- Interrupção Branda: Um controle para transformar o próximo questionamento instantaneamente em um "Treino Pré-Jogo" (Associação direta N=0), permitindo a autorregulação do paciente sem a necessidade de fechar e reiniciar o software.
 
 ## 6  EXPERIÊNCIA PRETENDIDA  —  PLAYER EXPERIENCE (MDA: AESTHETICS)
 
@@ -234,26 +271,23 @@ As dimensões prioritárias para esta população são Sensation (Sensação) e 
 ### 7.1  Mechanics  —  Regras e Sistemas
 
 - Execução musical pausada por ciclos cronometrados, onde o jogador realiza o *Active Recall* de estímulos anteriores (N-Back) e avança caso atinja a pontuação ou esgote as tentativas disponíveis.   
-
 - Restrições da população: Erros não devem produzir punições sensoriais; deve haver mecanismo de regressão de dificuldade facilitado para mitigar a frustração (especialmente útil para TEA associado a TOD e TDAH).   
 
 ### 7.2  Story  —  Narrativa e Contexto
 
 - O jogador assume o papel de um músico aprendiz.   
-
 - Um "professor" narra os trechos tocados e, em seguida, realiza perguntas para testar a memória do aluno, o que justifica a narração de fundo e fornece um envelopamento narrativo amigável para o N-Back.  
 
 ### 7.3  Aesthetics  —  Visual, Som e Sensação
 
 - Apresentação visual por meio de blocos de ondas sonoras ou notas musicais enfileiradas.   
-
 - Restrições da população: Fundo de tela branco/neutro como padrão para conforto visual. Controle absoluto de volume musical, permitindo silenciamento se a criança desejar focar apenas no estímulo visual. As cores dos blocos devem ser customizáveis para evitar rejeição intencional por hiperfoco em cores específicas. 
 
 ### 7.4  Technology  —  Plataforma e Implementação
 
-- Plataformas Web, Desktop e Mobile (abrangência multiplataforma).   
-
-- Interação por meio de cliques de mouse ou touchscreen, democratizando o acesso e facilitando o uso domiciliar por perfis que não possuem computador (majoritariamente usuários de tablets).  
+- Motor de Jogo: Unity (C#) para renderização visual e gestão de interface de utilizador.   
+- Motor Adaptativo (Backend): Servidor desenvolvido em Python com FastAPI, responsável por receber a telemetria do Unity em tempo real, calcular as recompensas e o próximo estado e devolver os parâmetros ajustados da fase.
+- Plataformas: Publicação para WebGL, Desktop (Linux/Windows) e Mobile, garantindo a acessibilidade através de toques no ecrã ou cliques de mouse.
 
 ## 8  MAPEAMENTO LM-GM
 > ⚙ *LM-GM: Learning Mechanics e Game Mechanics (Arnab et al., 2015). Seção exclusiva do GDD científico.*
@@ -337,9 +371,9 @@ As dimensões prioritárias para esta população são Sensation (Sensação) e 
 
 ### 10.1  Princípios de Interface
 
-- A interface deve possuir mínimo de ruído visual (ex: evitar estrelinhas ou fundos excessivamente animados) para prevenir distração.   
-
-- As opções de resposta devem reter o mesmo símbolo visual (bloco) apresentado inicialmente na sequência sonora, facilitando o reconhecimento padronizado. 
+- A interface deve possuir mínimo de ruído visual (ex: evitar estrelinhas ou fundos excessivamente animados) para prevenir distração;
+- As opções de resposta devem aparecer de maneira expressiva na tela, com tamanho padronizado e grande, e com colorações distintas, facilitando reconhecimento;
+- Um breve escurecimento no plano de fundo será utilizado para evitar distrações.
 
 ### 10.2  Requisitos de Acessibilidade por Domínio
 
@@ -353,7 +387,7 @@ As dimensões prioritárias para esta população são Sensation (Sensação) e 
 
 **Motor:**
 
-- Área de clique (hitbox) dos blocos deve ser generosa para acomodar variações de coordenação motora fina fina em telas touchscreen; tempo de resposta ao N-Back ajustável.
+- Área de clique (hitbox) dos blocos deve ser generosa - **tamanho mínimo de 48x48 dp** - para acomodar variações de coordenação motora fina em telas touchscreen; tempo de resposta ao N-Back ajustável.
 
 **Linguístico:**
 
@@ -383,7 +417,7 @@ As dimensões prioritárias para esta população são Sensation (Sensação) e 
 | --- | --- |
 | Distância do N-Back | faixa: 1 a 3 (ou modo de associação direta 0 para S3); impacto: demanda primária de memória de trabalho |
 | Duração do clipe musical | faixa: 15s a 45s (padrão 30s); impacto: exigência de foco e risco de dispersão |
-| Complexidade das opções | faixa: 2 a 4 blocos de resposta; impacto: confusão visual e taxa de erro |
+| Complexidade das opções | faixa: 2 blocos de resposta (sim/não); impacto: mitiga a confusão visual e facilita a tomada de decisão |
 
 ### 11.2  Critérios de Progressão, Regressão e Interrupção
 
@@ -400,7 +434,7 @@ As dimensões prioritárias para esta população são Sensation (Sensação) e 
 
 - Suporte 2 (S2): Entrada no N-Back = 1, duração de 20-30s. Foco na repetição antes de aumentar o N para evitar frustração.   
 
-- Suporte 3 (S3): Associação direta (N=0) e sem limite de tempo punitivo. Foco apenas em entender a mecânica de resposta com mediação.
+- Suporte 3 (S3): Associação direta (N=0) e sem limite de tempo punitivo. Foco apenas em entender a mecânica de resposta com mediação. O marco de sucesso para finalização da fase é conseguir **três acertos consecutivos**.
 
 ## 12  REQUISITOS TÉCNICOS CONSOLIDADOS
 > ⚙ *Esta seção alimenta diretamente o Doc 2 — Backlog Ágil. Organize por domínio com prioridade e origem.*
@@ -415,6 +449,9 @@ As dimensões prioritárias para esta população são Sensation (Sensação) e 
 | Interface | Modo "Treino Pré-Jogo" sem cronômetro ou contagem de erro | Alta | PPI-ATGCP (S3) |
 | Acessibilidade | Tutorial rápido embutido com opção de "Pular" (Skip) | Média | Persona 1 (S1) |
 | Funcional | O jogo não deve exigir postura em pé; deve ser jogável sentado. | Alta | Persona 3 (S3) / PPI-ATGCP |
+| Funcional | Dashboard clínico ou atalhos de teclado para "Trava de Variável" (congelar N-Back e BPM) | Alta | Secção 5.3 / Protocolo de Segurança | 
+| Funcional | Comando de "Interrupção Branda" para transição imediata para o Modo "Treino Pré-Jogo" (N=0) | Alta | Secção 5.3 / PPI-ATGCP (S2/S3) |
+| Funcional | Implementar cliente de telemetria no Unity para envio/receção de payloads JSON (via REST) comunicando com a API | Alta | Decisão de Arquitetura |
 
 ## 13  LACUNAS E DECISÕES PENDENTES
 > ⚙ *Seção viva, atualizada a cada ciclo de PPI e a cada iteração de desenvolvimento.*
@@ -426,6 +463,7 @@ As dimensões prioritárias para esta população são Sensation (Sensação) e 
 | Viabilidade real do uso domiciliar sem supervisão para perfil S2 | Risco de abandono do jogo por frustração sem mediador | Incluir testes puramente domiciliares (sem clínicos presentes) no próximo ciclo PPI | Pesquisador responsável |
 | Direitos autorais das músicas | Limita o apelo do reforçador se as músicas favoritas da criança não puderem ser usadas | Pesquisar bibliotecas de áudio royalty-free ou permissões para uso em serious games | Equipe de desenvolvimento |
 | Desempenho do jogo em tablets antigos / de baixo custo | Travamentos ou lentidão podem ser confundidos com aumento de dificuldade pela criança (como ocorreu com U2-S1 no PPI). | Realizar testes de framerate e latência de toque em dispositivos mobile de entrada. | Equipe de desenvolvimento |
+| Latência da comunicação Unity-FastAPI | Atrasos de rede podem dessincronizar o cronómetro do N-Back e prejudicar o tempo de reação medido do jogador. | Definir esquema de dados (JSON) leve; testar latência de rotas REST e avaliar transição para WebSockets caso necessário. | Equipe de desenvolvimento |
 
 ## 13A  HIPÓTESES PARA VALIDAÇÃO
 > ⚙ *Esta seção consolida todas as hipóteses de design dispersas na Seção 4.*
