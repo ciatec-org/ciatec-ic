@@ -64,6 +64,9 @@ Login → Menu → Settings → Gameplay → Results
 13. Estabelecer critérios de aceite.
 14. Versionamento pelo Git/GitHub.
 
+https://agilemanifesto.org/
+https://docs.gitlab.com/ci/pipelines/
+
 ---
 
 ## FASE 3 — Desenvolvimento do Núcleo

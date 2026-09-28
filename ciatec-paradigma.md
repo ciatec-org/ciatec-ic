@@ -71,6 +71,8 @@ A bateria é desenvolvida sob três frameworks complementares, aplicados em dife
 - [https://doi.org/10.3389/fped.2025.1498563](https://doi.org/10.3389/fped.2025.1498563)
 - [https://pubmed.ncbi.nlm.nih.gov/36597046/](https://pubmed.ncbi.nlm.nih.gov/36597046/)
 
+
+
 ## Atrito entre Psicometria e Jogabilidade: Análise por Paradigma
 
 A análise a seguir examina, para cada paradigma, onde reside a tensão entre preservar o construto científico e produzir uma experiência de jogo genuína. O grau de atrito não é fixo: é uma função das decisões de design. O objetivo desta seção é tornar explícitas essas decisões para que possam ser tomadas de forma informada.
@@ -88,9 +90,11 @@ A análise a seguir examina, para cada paradigma, onde reside a tensão entre pr
 
 **Referência:**
 
-- Kahveci, S. et al. (2025). Reaction-time task reliability is more accurately computed with permutation-based split-half correlations than with Cronbach's alpha. https://doi.org/10.3758/s13423-024-02597-y
-- Loushy Kay, T. et al. (2025). A novel reaction time assessment in virtual reality: Advantages over computerized tests. https://doi.org/10.3758/s13428-025-02752-w
-- Mritunjay, Singh & Kashyap (2025). Assessment Tools for Evaluating Reaction Time: A Comprehensive Review of Methods and Applications. https://doi.org/10.7860/JCDR/2025/80478.21715
+- Kahveci, S. et al. (2025). Reaction-time task reliability is more accurately computed with permutation-based split-half correlations than with Cronbach's alpha. [https://doi.org/10.3758/s13423-024-02597-y](https://doi.org/10.3758/s13423-024-02597-y)
+- Loushy Kay, T. et al. (2025). A novel reaction time assessment in virtual reality: Advantages over computerized tests. [https://doi.org/10.3758/s13428-025-02752-w](https://doi.org/10.3758/s13428-025-02752-w)
+- Mritunjay, Singh & Kashyap (2025). Assessment Tools for Evaluating Reaction Time: A Comprehensive Review of Methods and Applications. [https://doi.org/10.7860/JCDR/2025/80478.21715](https://doi.org/10.7860/JCDR/2025/80478.21715)
+
+
 
 ### 2. Choice Reaction Time (CRT)
 
@@ -105,9 +109,11 @@ A análise a seguir examina, para cada paradigma, onde reside a tensão entre pr
 
 **Referência:**
 
-- Ferreira et al. (2024). Validity and reliability of a ruler drop test to measure dual-task reaction time, choice reaction time and discrimination reaction time. https://doi.org/10.1007/s40520-024-02726-6
-- Loushy Kay et al. (2025). A novel reaction time assessment in virtual reality: Advantages over computerized tests. https://doi.org/10.3758/s13428-025-02752-w
-- Gazzanigo et al. (2025). Cellphone separation modulates the effects of working memory load on ex-Gaussian parameters of choice reaction time. https://doi.org/10.1186/s41235-025-00684-9
+- Ferreira et al. (2024). Validity and reliability of a ruler drop test to measure dual-task reaction time, choice reaction time and discrimination reaction time. [https://doi.org/10.1007/s40520-024-02726-6](https://doi.org/10.1007/s40520-024-02726-6)
+- Loushy Kay et al. (2025). A novel reaction time assessment in virtual reality: Advantages over computerized tests. [https://doi.org/10.3758/s13428-025-02752-w](https://doi.org/10.3758/s13428-025-02752-w)
+- Gazzanigo et al. (2025). Cellphone separation modulates the effects of working memory load on ex-Gaussian parameters of choice reaction time. [https://doi.org/10.1186/s41235-025-00684-9](https://doi.org/10.1186/s41235-025-00684-9)
+
+
 
 ### 3. Go/No-Go Task
 
@@ -122,9 +128,11 @@ A análise a seguir examina, para cada paradigma, onde reside a tensão entre pr
 
 **Referência:**
 
-- Aziz-Safaie et al. (2024). The effect of task complexity on the neural network for response inhibition: An ALE meta-analysis. https://doi.org/10.1016/j.neubiorev.2024.105544
-- Zhang et al. (2024). Dissociation of prepotent response inhibition and interference control in problematic internet use: evidence from the Go/No-Go and Flanker tasks. https://doi.org/10.1186/s40359-024-01698-6
-- The influence of emotional stimuli on response inhibition: a systematic review in non-clinical adults (2025). https://doi.org/10.3389/fpsyg.2025.1577486
+- Aziz-Safaie et al. (2024). The effect of task complexity on the neural network for response inhibition: An ALE meta-analysis. [https://doi.org/10.1016/j.neubiorev.2024.105544](https://doi.org/10.1016/j.neubiorev.2024.105544)
+- Zhang et al. (2024). Dissociation of prepotent response inhibition and interference control in problematic internet use: evidence from the Go/No-Go and Flanker tasks. [https://doi.org/10.1186/s40359-024-01698-6](https://doi.org/10.1186/s40359-024-01698-6)
+- The influence of emotional stimuli on response inhibition: a systematic review in non-clinical adults (2025). [https://doi.org/10.3389/fpsyg.2025.1577486](https://doi.org/10.3389/fpsyg.2025.1577486)
+
+
 
 ### 4. Stroop Task
 
@@ -139,9 +147,11 @@ A análise a seguir examina, para cada paradigma, onde reside a tensão entre pr
 
 **Referência:**
 
-- Müller et al. (2025). Not All Stroop-Type Tasks Are Alike: Assessing the Impact of Stimulus Material, Task Design, and Cognitive Demand via Meta-analyses Across Neuroimaging Studies. https://doi.org/10.1007/s11065-024-09647-1
-- Cipriani et al. (2025). Executive control from healthy ageing to cognitive impairment: A systematic review of stroop and simon effects using psychophysiological and imaging techniques. https://doi.org/10.1016/j.neubiorev.2025.106121
-- Vasta, Mulatti & Treccani (2026). A qualitative systematic review of individual differences in Stroop task performance among healthy adults. https://doi.org/10.1007/s00426-025-02224-y
+- Müller et al. (2025). Not All Stroop-Type Tasks Are Alike: Assessing the Impact of Stimulus Material, Task Design, and Cognitive Demand via Meta-analyses Across Neuroimaging Studies. [https://doi.org/10.1007/s11065-024-09647-1](https://doi.org/10.1007/s11065-024-09647-1)
+- Cipriani et al. (2025). Executive control from healthy ageing to cognitive impairment: A systematic review of stroop and simon effects using psychophysiological and imaging techniques. [https://doi.org/10.1016/j.neubiorev.2025.106121](https://doi.org/10.1016/j.neubiorev.2025.106121)
+- Vasta, Mulatti & Treccani (2026). A qualitative systematic review of individual differences in Stroop task performance among healthy adults. [https://doi.org/10.1007/s00426-025-02224-y](https://doi.org/10.1007/s00426-025-02224-y)
+
+
 
 ### 5. Eriksen Flanker Task
 
@@ -156,9 +166,11 @@ A análise a seguir examina, para cada paradigma, onde reside a tensão entre pr
 
 **Referência:**
 
-- Mittelstädt et al. (2025). Under pressure in the Eriksen flanker task. https://doi.org/10.1016/j.biopsycho.2025.108986
-- Dignath et al. (2025). Dynamic modulation of spatial selection: Online and anticipatory adjustments in the flanker task. https://doi.org/10.3758/s13414-025-03026-5
-- Strommer, Okon-Singer & Gabay (2024). The subcortical role in executive functions: Neural mechanisms of executive inhibition in the flanker task. https://doi.org/10.3758/s13415-024-01215-7
+- Mittelstädt et al. (2025). Under pressure in the Eriksen flanker task. [https://doi.org/10.1016/j.biopsycho.2025.108986](https://doi.org/10.1016/j.biopsycho.2025.108986)
+- Dignath et al. (2025). Dynamic modulation of spatial selection: Online and anticipatory adjustments in the flanker task. [https://doi.org/10.3758/s13414-025-03026-5](https://doi.org/10.3758/s13414-025-03026-5)
+- Strommer, Okon-Singer & Gabay (2024). The subcortical role in executive functions: Neural mechanisms of executive inhibition in the flanker task. [https://doi.org/10.3758/s13415-024-01215-7](https://doi.org/10.3758/s13415-024-01215-7)
+
+
 
 ### 6. Simon Task
 
@@ -173,9 +185,11 @@ A análise a seguir examina, para cada paradigma, onde reside a tensão entre pr
 
 **Referência:**
 
-- Pastötter et al. (2024). The interplay of cognitive control and feature integration: insights from theta oscillatory dynamics during conflict processing. https://doi.org/10.1093/cercor/bhae326
-- Velasquez et al. (2024). Music training is related to late ERP modulation and enhanced performance during Simon task but not Stroop task. https://doi.org/10.3389/fnhum.2024.1384179
-- Spatiotemporal dynamics of mouse tracking reveal general and selective control mechanisms of the congruency sequence effect in Simon tasks (2025). https://doi.org/10.1016/j.cognition.2025.106259
+- Pastötter et al. (2024). The interplay of cognitive control and feature integration: insights from theta oscillatory dynamics during conflict processing. [https://doi.org/10.1093/cercor/bhae326](https://doi.org/10.1093/cercor/bhae326)
+- Velasquez et al. (2024). Music training is related to late ERP modulation and enhanced performance during Simon task but not Stroop task. [https://doi.org/10.3389/fnhum.2024.1384179](https://doi.org/10.3389/fnhum.2024.1384179)
+- Spatiotemporal dynamics of mouse tracking reveal general and selective control mechanisms of the congruency sequence effect in Simon tasks (2025). [https://doi.org/10.1016/j.cognition.2025.106259](https://doi.org/10.1016/j.cognition.2025.106259)
+
+
 
 ### 7. Psychomotor Vigilance Task (PVT)
 
@@ -190,9 +204,11 @@ A análise a seguir examina, para cada paradigma, onde reside a tensão entre pr
 
 **Referência:**
 
-- Vigilance Decrement: Its First 75 Years (2025). https://doi.org/10.3389/fcogn.2025.1632885
-- Bistable stochastic model quantifies performance degradation during sleep deprivation (2025). https://doi.org/10.1093/sleep/zsaf205
-- Forecasting psychomotor vigilance test performance from facial videos (2025). https://doi.org/10.1093/sleep/zsaf220
+- Vigilance Decrement: Its First 75 Years (2025). [https://doi.org/10.3389/fcogn.2025.1632885](https://doi.org/10.3389/fcogn.2025.1632885)
+- Bistable stochastic model quantifies performance degradation during sleep deprivation (2025). [https://doi.org/10.1093/sleep/zsaf205](https://doi.org/10.1093/sleep/zsaf205)
+- Forecasting psychomotor vigilance test performance from facial videos (2025). [https://doi.org/10.1093/sleep/zsaf220](https://doi.org/10.1093/sleep/zsaf220)
+
+
 
 ### 8. N-Back Task
 
@@ -207,9 +223,11 @@ A análise a seguir examina, para cada paradigma, onde reside a tensão entre pr
 
 **Referência:**
 
-- Huang et al. (2025). Exploring the n-back task: insights, applications, and future directions. https://doi.org/10.3389/fnhum.2025.1721330
-- Ni & Ma (2024). A computational approach to the N-back task. https://doi.org/10.1038/s41598-024-80537-5
-- Byrne et al. (2024). Evidence for separate backward recall and n-back working memory factors: a large-scale latent variable analysis. https://doi.org/10.1080/09658211.2024.2393388
+- Huang et al. (2025). Exploring the n-back task: insights, applications, and future directions. [https://doi.org/10.3389/fnhum.2025.1721330](https://doi.org/10.3389/fnhum.2025.1721330)
+- Ni & Ma (2024). A computational approach to the N-back task. [https://doi.org/10.1038/s41598-024-80537-5](https://doi.org/10.1038/s41598-024-80537-5)
+- Byrne et al. (2024). Evidence for separate backward recall and n-back working memory factors: a large-scale latent variable analysis. [https://doi.org/10.1080/09658211.2024.2393388](https://doi.org/10.1080/09658211.2024.2393388)
+
+
 
 ### 9. Continuous Performance Task (CPT)
 
@@ -224,9 +242,11 @@ A análise a seguir examina, para cada paradigma, onde reside a tensão entre pr
 
 **Referência:**
 
-- MacKay-Brandt et al. (2025). cpCST: a new continuous performance test for high-precision assessment of attention across the lifespan. https://doi.org/10.3389/fpsyg.2025.1640417
-- Shelat, Schooler & Giesbrecht (2024). Predicting attentional lapses using response time speed in continuous performance tasks. https://doi.org/10.3389/fcogn.2024.1460349
-- Sustained attention can be measured using a brief computerized attention task (2024). https://doi.org/10.1038/s41598-024-68093-4
+- MacKay-Brandt et al. (2025). cpCST: a new continuous performance test for high-precision assessment of attention across the lifespan. [https://doi.org/10.3389/fpsyg.2025.1640417](https://doi.org/10.3389/fpsyg.2025.1640417)
+- Shelat, Schooler & Giesbrecht (2024). Predicting attentional lapses using response time speed in continuous performance tasks. [https://doi.org/10.3389/fcogn.2024.1460349](https://doi.org/10.3389/fcogn.2024.1460349)
+- Sustained attention can be measured using a brief computerized attention task (2024). [https://doi.org/10.1038/s41598-024-68093-4](https://doi.org/10.1038/s41598-024-68093-4)
+
+
 
 ### 10. Task-Switching Paradigm
 
@@ -241,9 +261,11 @@ A análise a seguir examina, para cada paradigma, onde reside a tensão entre pr
 
 **Referência:**
 
-- Radović et al. (2025). Cognitive flexibility in aging: the impact of age range and task difficulty on local switch costs in task switching. https://doi.org/10.3389/fnagi.2025.1619441
-- Viviani et al. (2025). Exploring semantic and executive flexibility interplay in task switching. https://doi.org/10.1038/s41598-025-09639-y
-- Geddert et al. (2025). Modeling of control over task-switching and cross-task interference supports a two-dimensional model of cognitive stability and flexibility. https://doi.org/10.3758/s13423-025-02712-7
+- Radović et al. (2025). Cognitive flexibility in aging: the impact of age range and task difficulty on local switch costs in task switching. [https://doi.org/10.3389/fnagi.2025.1619441](https://doi.org/10.3389/fnagi.2025.1619441)
+- Viviani et al. (2025). Exploring semantic and executive flexibility interplay in task switching. [https://doi.org/10.1038/s41598-025-09639-y](https://doi.org/10.1038/s41598-025-09639-y)
+- Geddert et al. (2025). Modeling of control over task-switching and cross-task interference supports a two-dimensional model of cognitive stability and flexibility. [https://doi.org/10.3758/s13423-025-02712-7](https://doi.org/10.3758/s13423-025-02712-7)
+
+
 
 ### 11. Wisconsin Card Sorting Test (WCST)
 
@@ -258,9 +280,11 @@ A análise a seguir examina, para cada paradigma, onde reside a tensão entre pr
 
 **Referência:**
 
-- Alotaibi et al. (2025). Preliminary psychometric evaluation of the online Wisconsin Card Sorting Inspired Test (WCSIT). https://doi.org/10.1016/j.actpsy.2025.105514
-- Granato et al. (2025). Assessing executive functions and metacognition: translational potential of the Metacognitive Wisconsin Card Sorting Test for developmental neuropsychology. https://doi.org/10.3389/fnbeh.2025.1655310
-- Zhang & Ye (2025). Bridging Species Differences in Rule Switching: How Humans and Monkeys Solve the Same Wisconsin Card Sorting Task. https://doi.org/10.1523/JNEUROSCI.2288-24.2025
+- Alotaibi et al. (2025). Preliminary psychometric evaluation of the online Wisconsin Card Sorting Inspired Test (WCSIT). [https://doi.org/10.1016/j.actpsy.2025.105514](https://doi.org/10.1016/j.actpsy.2025.105514)
+- Granato et al. (2025). Assessing executive functions and metacognition: translational potential of the Metacognitive Wisconsin Card Sorting Test for developmental neuropsychology. [https://doi.org/10.3389/fnbeh.2025.1655310](https://doi.org/10.3389/fnbeh.2025.1655310)
+- Zhang & Ye (2025). Bridging Species Differences in Rule Switching: How Humans and Monkeys Solve the Same Wisconsin Card Sorting Task. [https://doi.org/10.1523/JNEUROSCI.2288-24.2025](https://doi.org/10.1523/JNEUROSCI.2288-24.2025)
+
+
 
 ### 12. Tower of London
 
@@ -275,9 +299,11 @@ A análise a seguir examina, para cada paradigma, onde reside a tensão entre pr
 
 **Referência:**
 
-- Schumacher et al. (2025). A novel index to measure pre-planning in the Tower of London task: Test-retest reliability and known-group validity. https://doi.org/10.1111/bjop.70044
-- Kavanaugh et al. (2025). The Tower of London task in children and adolescents with neuropsychiatric disorders. https://doi.org/10.1080/09297049.2024.2360224
-- Ventura, Fogel & Northoff (2025). From Planning to Execution: Temporal Signatures of Cognitive and Motor Processes in the Tower of Hanoi Task. https://doi.org/10.48550/arXiv.2510.XXXXX
+- Schumacher et al. (2025). A novel index to measure pre-planning in the Tower of London task: Test-retest reliability and known-group validity. [https://doi.org/10.1111/bjop.70044](https://doi.org/10.1111/bjop.70044)
+- Kavanaugh et al. (2025). The Tower of London task in children and adolescents with neuropsychiatric disorders. [https://doi.org/10.1080/09297049.2024.2360224](https://doi.org/10.1080/09297049.2024.2360224)
+- Ventura, Fogel & Northoff (2025). From Planning to Execution: Temporal Signatures of Cognitive and Motor Processes in the Tower of Hanoi Task. [https://doi.org/10.48550/arXiv.2510.XXXXX](https://doi.org/10.48550/arXiv.2510.XXXXX)
+
+
 
 ### 13. Serial Reaction Time Task (SRTT)
 
@@ -292,9 +318,11 @@ A análise a seguir examina, para cada paradigma, onde reside a tensão entre pr
 
 **Referência:**
 
-- Barth, Stahl & Haider (2025). How Implicit Sequence Learning and Explicit Sequence Knowledge Are Expressed in a Serial Response Time Task. https://doi.org/10.5334/joc.439
-- Oliveira, Hayiou-Thomas & Henderson (2024). Reliability of the serial reaction time task: If at first you don't succeed, try, try, try again. https://doi.org/10.1177/17470218241232347
-- Broeckelmann, Martin & Glazebrook (2025). Auditory Cues and Feedback in the Serial Reaction Time Task: Evidence for Sequence Acquisition and Sensory Transfer. https://doi.org/10.1080/00222895.2024.2448130
+- Barth, Stahl & Haider (2025). How Implicit Sequence Learning and Explicit Sequence Knowledge Are Expressed in a Serial Response Time Task. [https://doi.org/10.5334/joc.439](https://doi.org/10.5334/joc.439)
+- Oliveira, Hayiou-Thomas & Henderson (2024). Reliability of the serial reaction time task: If at first you don't succeed, try, try, try again. [https://doi.org/10.1177/17470218241232347](https://doi.org/10.1177/17470218241232347)
+- Broeckelmann, Martin & Glazebrook (2025). Auditory Cues and Feedback in the Serial Reaction Time Task: Evidence for Sequence Acquisition and Sensory Transfer. [https://doi.org/10.1080/00222895.2024.2448130](https://doi.org/10.1080/00222895.2024.2448130)
+
+
 
 ### 14. Probabilistic Reversal Learning (PRL)
 
@@ -309,9 +337,11 @@ A análise a seguir examina, para cada paradigma, onde reside a tensão entre pr
 
 **Referência:**
 
-- MacDonald et al. (2025). Computational Modeling of Reversal Learning Impairments in Schizophrenia and Bipolar Disorder Reveals Shared Failure to Exploit Rewards. https://doi.org/10.1037/abn0000944
-- Koloski et al. (2025). Beta and High Gamma Oscillations in the Cortico-striatal Network Reflect Reward Certainty on a Probabilistic Reversal Learning Task. https://doi.org/10.1523/JNEUROSCI.0858-25.2025
-- Griffin et al. (2024). Distinct alterations in probabilistic reversal learning across at-risk mental state, first episode psychosis and persistent schizophrenia. https://doi.org/10.1038/s41598-024-68004-7
+- MacDonald et al. (2025). Computational Modeling of Reversal Learning Impairments in Schizophrenia and Bipolar Disorder Reveals Shared Failure to Exploit Rewards. [https://doi.org/10.1037/abn0000944](https://doi.org/10.1037/abn0000944)
+- Koloski et al. (2025). Beta and High Gamma Oscillations in the Cortico-striatal Network Reflect Reward Certainty on a Probabilistic Reversal Learning Task. [https://doi.org/10.1523/JNEUROSCI.0858-25.2025](https://doi.org/10.1523/JNEUROSCI.0858-25.2025)
+- Griffin et al. (2024). Distinct alterations in probabilistic reversal learning across at-risk mental state, first episode psychosis and persistent schizophrenia. [https://doi.org/10.1038/s41598-024-68004-7](https://doi.org/10.1038/s41598-024-68004-7)
+
+
 
 ### 15. Iowa Gambling Task (IGT)
 
@@ -326,9 +356,11 @@ A análise a seguir examina, para cada paradigma, onde reside a tensão entre pr
 
 **Referência:**
 
-- Latibeaudiere, Butler & Owens (2025). Decision-making and performance in the Iowa Gambling Task: recent ERP findings and clinical implications. https://doi.org/10.3389/fpsyg.2025.1492471
-- Zanini, Picano & Spitoni (2025). The Iowa Gambling Task: Men and Women Perform Differently. A Meta-analysis. https://doi.org/10.1007/s11065-024-09637-3
-- Salice, Antonietti & Colautti (2024). The effect of transcranial Direct Current Stimulation on the Iowa Gambling Task: a scoping review. https://doi.org/10.3389/fpsyg.2024.1454796
+- Latibeaudiere, Butler & Owens (2025). Decision-making and performance in the Iowa Gambling Task: recent ERP findings and clinical implications. [https://doi.org/10.3389/fpsyg.2025.1492471](https://doi.org/10.3389/fpsyg.2025.1492471)
+- Zanini, Picano & Spitoni (2025). The Iowa Gambling Task: Men and Women Perform Differently. A Meta-analysis. [https://doi.org/10.1007/s11065-024-09637-3](https://doi.org/10.1007/s11065-024-09637-3)
+- Salice, Antonietti & Colautti (2024). The effect of transcranial Direct Current Stimulation on the Iowa Gambling Task: a scoping review. [https://doi.org/10.3389/fpsyg.2024.1454796](https://doi.org/10.3389/fpsyg.2024.1454796)
+
+
 
 ### 16. Delay Discounting / Intertemporal Choice
 
@@ -343,9 +375,11 @@ A análise a seguir examina, para cada paradigma, onde reside a tensão entre pr
 
 **Referência:**
 
-- Gelino et al. (2024). A systematic review and meta-analysis of test-retest reliability and stability of delay and probability discounting. https://doi.org/10.1002/jeab.910
-- Macías-Navarrete & dos Santos (2024). Effects of delay sequence in a delay discounting task. https://doi.org/10.1016/j.beproc.2024.105046
-- Domínguez Rojas & Velo Higueras (2025). Delay discounting and anxiety: a systematic review on current evidence for clinical and non-clinical population. https://doi.org/10.3389/fpsyg.2025.1645442
+- Gelino et al. (2024). A systematic review and meta-analysis of test-retest reliability and stability of delay and probability discounting. [https://doi.org/10.1002/jeab.910](https://doi.org/10.1002/jeab.910)
+- Macías-Navarrete & dos Santos (2024). Effects of delay sequence in a delay discounting task. [https://doi.org/10.1016/j.beproc.2024.105046](https://doi.org/10.1016/j.beproc.2024.105046)
+- Domínguez Rojas & Velo Higueras (2025). Delay discounting and anxiety: a systematic review on current evidence for clinical and non-clinical population. [https://doi.org/10.3389/fpsyg.2025.1645442](https://doi.org/10.3389/fpsyg.2025.1645442)
+
+
 
 ### 17. Spatial Navigation Task (Morris Water Maze Virtual)
 
@@ -360,9 +394,11 @@ A análise a seguir examina, para cada paradigma, onde reside a tensão entre pr
 
 **Referência:**
 
-- Thornberry et al. (2026). Virtual Morris Water Task: Procedures and Protocols for the Assessment of Spatial Navigation and Memory. https://doi.org/10.1002/cpph.70011
-- Zaitoon et al. (2025). The virtual Morris water maze for cognitive function assessment in adolescents with type 1 diabetes. https://doi.org/10.1007/s00125-025-06598-x
-- Age- and sex-related differences in landmark recall following a virtual spatial navigation task (2025). https://doi.org/10.3389/fnagi.2025.1602945
+- Thornberry et al. (2026). Virtual Morris Water Task: Procedures and Protocols for the Assessment of Spatial Navigation and Memory. [https://doi.org/10.1002/cpph.70011](https://doi.org/10.1002/cpph.70011)
+- Zaitoon et al. (2025). The virtual Morris water maze for cognitive function assessment in adolescents with type 1 diabetes. [https://doi.org/10.1007/s00125-025-06598-x](https://doi.org/10.1007/s00125-025-06598-x)
+- Age- and sex-related differences in landmark recall following a virtual spatial navigation task (2025). [https://doi.org/10.3389/fnagi.2025.1602945](https://doi.org/10.3389/fnagi.2025.1602945)
+
+
 
 ### 18. Mental Rotation Task (Shepard-Metzler)
 
@@ -377,9 +413,11 @@ A análise a seguir examina, para cada paradigma, onde reside a tensão entre pr
 
 **Referência:**
 
-- Negen (2025). Mental rotation, perspective taking, and performance profiling. https://doi.org/10.1007/s10339-025-01269-6
-- Dong et al. (2025). Long-term cognitive and neurophysiological effects of mental rotation training. https://doi.org/10.1038/s41539-025-00309-2
-- Arnold et al. (2025). Mental rotation is a weak measure of people's propensity to visualise. https://doi.org/10.1016/j.concog.2025.103907
+- Negen (2025). Mental rotation, perspective taking, and performance profiling. [https://doi.org/10.1007/s10339-025-01269-6](https://doi.org/10.1007/s10339-025-01269-6)
+- Dong et al. (2025). Long-term cognitive and neurophysiological effects of mental rotation training. [https://doi.org/10.1038/s41539-025-00309-2](https://doi.org/10.1038/s41539-025-00309-2)
+- Arnold et al. (2025). Mental rotation is a weak measure of people's propensity to visualise. [https://doi.org/10.1016/j.concog.2025.103907](https://doi.org/10.1016/j.concog.2025.103907)
+
+
 
 ### 19. Visual Search Task
 
@@ -394,9 +432,11 @@ A análise a seguir examina, para cada paradigma, onde reside a tensão entre pr
 
 **Referência:**
 
-- Godwin et al. (2025). A sharing practices review of the visual search and eye movements literature reveals recommendations for our field and others. https://doi.org/10.3758/s13428-025-02759-3
-- Sherman, Clarke & Hughes (2025). Designing a test battery for real-world visual search. https://doi.org/10.1038/s41598-025-23111-x
-- Becker, Hamblin-Frohman & Amarasekera (2025). Visual search is relational without prior context learning. https://doi.org/10.1016/j.cognition.2025.106132
+- Godwin et al. (2025). A sharing practices review of the visual search and eye movements literature reveals recommendations for our field and others. [https://doi.org/10.3758/s13428-025-02759-3](https://doi.org/10.3758/s13428-025-02759-3)
+- Sherman, Clarke & Hughes (2025). Designing a test battery for real-world visual search. [https://doi.org/10.1038/s41598-025-23111-x](https://doi.org/10.1038/s41598-025-23111-x)
+- Becker, Hamblin-Frohman & Amarasekera (2025). Visual search is relational without prior context learning. [https://doi.org/10.1016/j.cognition.2025.106132](https://doi.org/10.1016/j.cognition.2025.106132)
+
+
 
 ### 20. Controle Visuomotor: Lei de Fitts e Lei das Dois Terços
 
@@ -417,9 +457,11 @@ A relevância clínica para neurodivergência é direta e subestimada. O trabalh
 
 **Referência:**
 
-- Fraser, Di Luca & Cook (2025). Biological kinematics: a detailed review of the velocity-curvature power law calculation. https://doi.org/10.1007/s00221-025-07065-0
-- Fourie et al. (2025). Motor Control Adherence to the Two-thirds Power Law Differs in Autistic Development. https://doi.org/10.1007/s10803-024-06240-6
-- Hornbæk, Kristensson & Oulasvirta (2025). Motor control. https://doi.org/10.1093/oso/9780192864543.003.0004
+- Fraser, Di Luca & Cook (2025). Biological kinematics: a detailed review of the velocity-curvature power law calculation. [https://doi.org/10.1007/s00221-025-07065-0](https://doi.org/10.1007/s00221-025-07065-0)
+- Fourie et al. (2025). Motor Control Adherence to the Two-thirds Power Law Differs in Autistic Development. [https://doi.org/10.1007/s10803-024-06240-6](https://doi.org/10.1007/s10803-024-06240-6)
+- Hornbæk, Kristensson & Oulasvirta (2025). Motor control. [https://doi.org/10.1093/oso/9780192864543.003.0004](https://doi.org/10.1093/oso/9780192864543.003.0004)
+
+
 
 ## Nota sobre Validade e Limitações
 
