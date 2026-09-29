@@ -52,8 +52,6 @@ O HelpIR é um jogo no qual vocÊ controla um robô de uma fábrica e sua missã
    - **Mediação Emocional:** Acompanham a resposta do jogador ao aumento de dificuldade e à frustração diante de bloqueios de rota ou mudanças no jogo.
 
 ## 3  OBJETIVO TERAPÊUTICO E EDUCACIONAL
-> ⚙ *Esta seção não existe em GDDs de mercado. É a primeira camada exclusivamente científica.*
-> ⚙ *Use linguagem compatível com MRC Framework. Diferencie objetivo terapêutico de objetivo de engajamento.*
 
 ### 3.1  Objetivo Terapêutico Principal (Primary Outcome & Target Mechanism)
 O objetivo terapêutico principal desta intervenção gamificada é **mensurar, exercitar e estabilizar os construtos de aprendizagem espacial, memória topográfica e flexibilidade cognitiva** (recalculo de rota e reorientação) em crianças e indivíduos com Transtorno do Espectro Autista (TEA). 
@@ -92,10 +90,6 @@ O **desfecho primário** visa à quantificação do perfil de adaptação cognit
 
 
 ## 4  MECÂNICAS CORE  —  MDA: MECHANICS
-> ⚙ *Descreva cada mecânica como faria em um GDD de mercado.*
-> ⚙ *Para cada mecânica, preencha: justificativa clínica, Guiding Principle correspondente, hipótese de design e origem no PPI.*
-> ⚙ *A hipótese de design responde à pergunta: por que acreditamos que essa decisão ajudará essa população?*
-> ⚙ *Mecânicas sem rastreabilidade ao PPI devem ser marcadas como decisão de design sem origem PPI.*
 
 ### 4.1  Mecânica Principal
 **Nome:** Navegação 3D e tomada de decisão em intersecções para entrega de pacotes sob perturbação ambiental
@@ -182,8 +176,7 @@ Progressão baseada em desempenho consistente, não em acerto bruto. Calibraçã
 Esse nível de progressão não será masçante, nem será desgatante para os jogadores. Isto será alinhado com o objetivo de não causar desconfortou ou desistência durante a experiência.
 
 ### 4.4  Onboarding
-> ⚙ *Para populações com barreira de leitura (surdos, baixa escolaridade, crianças), o onboarding visual não é acessibilidade opcional. É requisito de mecânica.*
-*[Como o jogador aprende a jogar. Demonstração, tutorial, suporte visual. Sem dependência de leitura quando relevante.]*
+
 ##### 4.4  Onboarding
 
 * **Descrição e Funcionamento:**
@@ -205,17 +198,14 @@ Esse nível de progressão não será masçante, nem será desgatante para os jo
 
 
 ## 5  DINÂMICAS  —  MDA: DYNAMICS
-> ⚙ *Descreva como as mecânicas geram experiência ao longo de uma sessão e ao longo do tempo.*
 
 ### 5.1  Arco de uma Sessão Típica
-*[Descreva o fluxo de uma sessão do início ao fim: entrada, aquecimento, progressão, encerramento. Duração esperada por sessão e por fase.]*
 
 No começo de cada fase, o jogador precisa coletar as caixas que vai precisar entregar em cada um dos setores. Após isso, o robô precisa percorrer o caminho seguindo as placas. No final, ele entrega o pacote para o setor. Esse ciclo se repete algumas vezes, no qual fases futuras são adicionados novos obstáculos, como omissão de placas e bloqueio de caminhos.
 
 *Duração esperada:* entre 10 minutos à 20 minutos por fase.
 
 ### 5.2  Progressão Longitudinal
-*[Como o jogo evolui ao longo de múltiplas sessões. Como o sistema ajusta dificuldade. Critérios de avanço entre sessões.]*
 
 Com o passar do tempo, as fases vão ganhando camadas de complexidade. A Fase 0 é um tutorial que vai apresentar isoladamente cada um dos obstáculos.
 
@@ -224,8 +214,6 @@ Após ela, as fases aumentam suas dificuldade progressivamente, como a adição 
 Em cada fase, ela começa sem nenhuma anormalidade, posteriormente é adicionado os obstáculos.
 
 ### 5.3  Calibração de Intensidade Terapêutica
-> ⚙ *Esta subseção é exclusiva do GDD científico. Descreva como a intensidade terapêutica é controlada pelo sistema.*
-*[Descreva as variáveis que controlam intensidade terapêutica: velocidade, tempo de resposta, área de alvo, duração, frequência. Limites de segurança.]*
 
 Por conta do cenário se passar em uma fábrica, podemos implementar as seguintes variável de controle:
 * **Controle de áudio**;
@@ -236,11 +224,6 @@ Por conta do cenário se passar em uma fábrica, podemos implementar as seguinte
   
 
 ## 6  EXPERIÊNCIA PRETENDIDA  —  PLAYER EXPERIENCE (MDA: AESTHETICS)
-> ⚙ *Descreva a experiência que o jogo pretende provocar, não o visual, mas a sensação.*
-> ⚙ *MDA Aesthetics: sensation, fantasy, narrative, challenge, fellowship, discovery, expression, submission.*
-> ⚙ *Para populações clínicas, a experiência pretendida deve ser calibrada à condição e ao contexto de uso.*
-> ⚙ *Referência: Hunicke, LeBlanc e Zubek (2004). O termo Aesthetics no MDA refere-se à experiência do jogador, não ao visual.*
-*[Descreva a experiência pretendida. Quais dimensões do MDA Aesthetics são prioritárias para esta população e este objetivo terapêutico?]*
 
 O jogo se enquadrariam em três MDA's: *Sensation*, *Challenge* e *Submission*. Abaixo é detalhado o porquê:
 * **Sensation**: o jogo utiliza muito de elementos visuais para guiar o usuário pela fábrica, sendo ajustado com o tempo para adequar para o usuário;
@@ -248,46 +231,34 @@ O jogo se enquadrariam em três MDA's: *Sensation*, *Challenge* e *Submission*. 
 * **Submission**: por conta de sua identidade visual girar em torno do lúdico e das mecânicas dele, o jogo gera uma experiência de passatempo, visando o estresse nulo.
 
 ## 7  ELEMENTAL TETRAD
-> ⚙ *O Elemental Tetrad (Jesse Schell) estrutura o jogo em quatro elementos: Mechanics, Story, Aesthetics, Technology.*
-> ⚙ *Para cada elemento: descrição padrão de GDD mais restrições explícitas da população incorporadas.*
 
 ### 7.1  Mechanics  —  Regras e Sistemas
-*[Síntese das mecânicas principais. Regras do jogo. Loop de jogo. Referência à Seção 4 para detalhamento.]*
 O jogador controla o robô através do teclado: `W/Seta para Cima` e `S/Seta para Baixo` para avançar e recuar, respectivamente; `A/Seta para Esquerda` e `D/Seta para Direita` para movimentar a câmera. Para dispositivos móveis, deve-se ser controlado por icones que represetam as setas do teclado. Esta mecânica é usada para movimentar o robô pela fábrica e permitir que ele entregue as encomendas.
 
 O jogo é divido em fases, no qual é Fase 0 é o tutorial (que pode ser sempre acessável) que demonstra todas os obstáculos do jogo de maneira individual. Logo depois disso, as fases avançam a dificuldade de maneira progressiva aumentado os setores, as placas omitidas e/ou corredores bloqueados. Em cada fase, o robô coleta a encomenda e faz seu caminho baseado nas placas até o setor para entregar. Isso acontece até a fase se finalizar.
 **Restrições da população:**
-*[Ex: ausência de feedback sonoro como requisito; contraste visual como parâmetro crítico; duração máxima de sessão como limite de segurança.]*
 Ausência de feedbacks sonoros punitivos; duração máxima de 30 minutos de jogo.
 ### 7.2  Story  —  Narrativa e Contexto
 *[Contexto narrativo do jogo, se existir. Pode ser mínima em jogos terapêuticos abstratos.]*
 Você é um robô que foi criado para evitar que mais acidentes de trabalhos ocorram na hora de entregar o pacote em outros setores. Com suas rodas rápidas e alta tecnologia, você tem essa missão tão honrosa.
 **Restrições da população:**
-*[Ex: narrativa não pode depender de texto; elementos culturais relevantes para a população devem ser incorporados quando possível.]*
 Não depende de elementos textuais.
 
 ### 7.3  Aesthetics  —  Visual, Som e Sensação
-*[Direção visual, paleta de cores, estilo gráfico, design de som. Referência à Seção 6.]*
 Um *design* mais cartunesco e com cores mais pastéis, formas mais redondas para não demonstrar perigo. Em questão do campo visual, evitar que tenha muitas máquinas exposta, serem separadas por cabines. 
 
 Na questão de áudios, ponderar o uso de áudios fabris.
 **Restrições da população:**
-*[Ex: alto contraste como requisito; ausência de áudio como característica esperada; campo visual limpo.]*
 Controle do áudio; sem abuso de cores.
 
 ### 7.4  Technology  —  Plataforma e Implementação
-*[Plataforma, tecnologia de interação, requisitos técnicos de hardware. Limitações de infraestrutura do contexto de uso.]*
 O jogo será portado para computadores pessoais (*Personal Computer* - PC) e em dispositivos móveis. Para seu funcionamento, deverá ter teclado e mouse na questão do computador, e *touchscreen* na questão do dispositivos móveis. Nescessitará da conexão à *Internet*.
 
 A construção será feito na plataforma Unity para computadores, e Dart/Flutter para dispositivos móveis.
 **Restrições da população:**
-*[Ex: funcionar em hardware doméstico de baixo custo; câmera padrão sem sensor de profundidade; conectividade limitada.]*
 Funcionar em hardware doméstico de baixo custo.
 
 #### 8  MAPEAMENTO LM-GM
-⚙  *LM-GM: Learning Mechanics e Game Mechanics (Arnab et al., 2015). Seção exclusiva do GDD científico.* [2, 3]  
-⚙  *Para cada objetivo clínico ou educacional, identifique qual mecânica de jogo o operacionaliza e qual Guiding Principle sustenta essa relação.* [2, 3]  
-⚠  **Se um objetivo clínico não tiver mecânica correspondente, é lacuna de design. Registre na Seção 13.** [2, 3]
 
 | Objetivo clínico / educacional | Mecânica de jogo | Como operacionaliza | GP |
 | --- | --- | --- | --- |
@@ -301,11 +272,6 @@ Funcionar em hardware doméstico de baixo custo.
 
 ## 9  PERSONAS E REQUISITOS DERIVADOS
 #### 9  PERSONAS E REQUISITOS DERIVADOS
-
-⚙  *Personas em formato sintético, derivadas do relatório de síntese do ciclo de PPI (ppi-ATGCP-TEA.md).*  
-⚙  *Cada persona gera requisitos operacionalizáveis diretamente vinculados aos Guiding Principles e às Seções de mecânicas, interface e progressão.*  
-⚙  *Personas não identificam participantes individuais; são perfis compostos representativos do ecossistema do jogo.*
-
 
 ##### 9.1  Persona 1 — Criança com TEA Nível de Suporte 1 (Autonomia e Flexibilidade)
 
@@ -388,10 +354,6 @@ Funcionar em hardware doméstico de baixo custo.
 ## 10  INTERFACE E ACESSIBILIDADE
 #### 10  INTERFACE E ACESSIBILIDADE
 
-⚙  *Acessibilidade está integrada à especificação de interface, não é uma seção separada.*  
-⚙  *Referências de design inclusivo: WCAG 2.1, ISO 9241-210 e Universal Design for Learning (UDL).*
-
-
 ##### 10.1  Princípios de Interface
 
 * **Campo Visual Limpo e Mínimo de Distratores:** Interface minimalista em estilo gráfico *cartoon* simplificado, com fundo neutro/branco por padrão no ambiente 3D da fábrica (baseado na preferência convergente de 100% dos participantes de Suporte 1 no PPI), eliminando poluição visual, iluminação piscante ou animações decorativas de fundo que geram dispersão atencional e hiperfoco indesejado (GP-02).
@@ -425,14 +387,6 @@ Funcionar em hardware doméstico de baixo custo.
 
 
 ##### 10.3  Telas e Fluxo de Navegação
-[Tela de Menu Principal] 
-│
-├──► [Fase 0: Tutorial / Onboarding Visual]
-│ 
-├──► [Jogo Principal / Início de Fase] ──► [Tela de Gameplay 3D (Fábrica)]
-│
-│ │ ├──► [Menu de Pausa] │ │ │ └──► [Tela de Conclusão de Fase] │ └──► [Menu de Configurações Sensoriais] ├── Controle de Volume (BGM / SFX) └── Seleção de Paleta de Cores
-
 
 1. **Tela de Menu Principal:**
    * Layout minimalista com poucas opções visíveis e ícones grandes: **[Jogar]**, **[Tutorial]** e **[Configurações]**.
@@ -457,12 +411,8 @@ Funcionar em hardware doméstico de baixo custo.
 
 
 ## 11  PARÂMETROS DE FASE E PROGRESSÃO
-> ⚙ *Esta seção conecta o GDD científico ao protocolo clínico (ATGCP ou equivalente).*
-> ⚙ *Inclua critérios explícitos de avanço, regressão e interrupção, não apenas progressão ascendente.*
 
 ### 11.1  Variáveis de Fase
-
-##### 11.1  Variáveis de Fase
 
 | Variável | Descrição e faixa de valores |
 | --- | --- |
@@ -487,10 +437,7 @@ Funcionar em hardware doméstico de baixo custo.
 | Interrupção de sessão | fadiga, desconforto visual, confusão sobre a tarefa, eventos adversos |
 | Interrupção do protocolo | aṕos 20 minutos de jogatina para evitar fadiga |
 
-##### 11.3  Faixas de Fase por Perfil
-
-⚙  *Defina faixas de entrada e limites de progressão por perfil funcional / persona, evitando uma progressão linear universal.*  
-⚙  *As faixas garantem que o ponto de partida do jogo esteja alinhado ao nível de suporte e às capacidades visuoespaciais da criança.*
+### 11.3  Faixas de Fase por Perfil
 
 #### A. Tabela Resumo de Faixas por Perfil
 
@@ -531,9 +478,6 @@ Funcionar em hardware doméstico de baixo custo.
 
 #### 12  REQUISITOS TÉCNICOS CONSOLIDADOS
 
-⚙  *Esta seção alimenta diretamente o Doc 2 — Backlog Ágil. Organizada por domínio, prioridade e origem.*  
-⚠  **Todos os requisitos possuem prioridade e origem rastreáveis aos Guiding Principles e ao ciclo de PPI.**
-
 | Domínio | Requisito | Prioridade | Origem |
 | --- | --- | --- | --- |
 | **Funcional / Core** | Navegação 3D egocêntrica com orientação por placas de cores em intersecções | **Alta** | Paradigma / GP-01 |
@@ -558,9 +502,6 @@ Funcionar em hardware doméstico de baixo custo.
 
 
 ## 13  LACUNAS E DECISÕES PENDENTES
-> ⚙ *Seção viva, atualizada a cada ciclo de PPI e a cada iteração de desenvolvimento.*
-> ⚙ *Para cada lacuna: descrição, impacto, ação necessária, responsável.*
-> ⚠ **Lacunas que bloqueiam o Doc 2 devem ser marcadas como CRÍTICAS.**
 
 | Lacuna / Decisão pendente | Impacto | Ação necessária | Responsável |
 | --- | --- | --- | --- |
@@ -573,10 +514,6 @@ Funcionar em hardware doméstico de baixo custo.
 
 
 ## 13A  HIPÓTESES PARA VALIDAÇÃO
-> ⚙ *Esta seção consolida todas as hipóteses de design dispersas na Seção 4.*
-> ⚙ *Cada hipótese é uma aposta testável derivada de um Guiding Principle.*
-> ⚙ *Esta seção é o ponto de entrada para a construção do protocolo no Doc 3.*
-> ⚙ *Não define instrumentos ou métodos de validação. Isso pertence ao Doc 3.*
 
 | H-ID | Hipótese | Guiding Principle | Será verificada no Doc 3 |
 | --- | --- | --- | --- |
@@ -599,5 +536,3 @@ Funcionar em hardware doméstico de baixo custo.
 | **H-08** | **Recalculo de Rota e Flexibilidade Cognitiva:** A introdução progressiva de fumaça e bloqueios imprevisíveis estimulará o recalculo de rota e a adaptação a mudanças de padrão. | **GP-08 / GP-03** | **Sim** |
 | **H-09** | **Telemetria de Biomarcadores Digitais:** A extração silenciosa de métricas (hesitação angular, latência e eficiência de rota) produzirá um perfil fidedigno de navegação sem estresse de teste. | **GP-02 / GP-04** | **Sim** |
 | **H-10** | **Construção de Mapa Cognitivo Topográfico:** A navegação egocêntrica guiada por placas coloridas favorecerá a formação de representação mental do espaço 3D (memória topográfica). | **GP-01 / GP-03** | **Sim** |
-
-> ⚠ **Cada hipótese deve ser rastreável a um Guiding Principle. Hipóteses sem GP de origem indicam lacuna na Seção 3A.**
